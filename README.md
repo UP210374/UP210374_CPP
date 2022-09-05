@@ -4,6 +4,6 @@ Repositor materia de programación
 * Me gustan los cheetos
 * Estudio en la UPA
 * Aqui guardare mis trabajos de cada materia del cuatri sep-dic 2022
-* Soy dislexica\ 
-![red imagen](/imagenes/descarga.jpeg)
+* Soy dislexica
+<br>![red imagen](/imagenes/descarga.jpeg)<br>
 
