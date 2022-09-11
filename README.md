@@ -1,7 +1,9 @@
 # C++ Programming Course 
 #### UP210374_CPP
-
-![red imagen](/Downlands/Kisspng-the-c-programming-lenguage-computer-icons-comput-programming-5acadc2dec0be9.0824244915232440779669.jpg)
+<div align ="center">
+<img alt="c++" height="100" src="imagenes/c_logo.png"/>
+</div>
+![red imagen](/Downlands/logo.jpg)
 
 
 * Me gustan los cheetos
