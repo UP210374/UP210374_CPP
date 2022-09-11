@@ -3,7 +3,7 @@
 <div align ="center">
 <img alt="c++" height="100" src="imagenes/c_logo.png"/>
 </div>
-![red imagen](/Downlands/logo.jpg)
+![red imagen](/imagenes/logo.jpg)
 
 
 * Me gustan los cheetos
