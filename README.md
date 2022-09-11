@@ -2,7 +2,7 @@
 #### UP210374_CPP
 
 
-![red imagen](/imagenes/descarga.jpeg")
+![red imagen](/imagenes/descarga.jpeg)
 
 
 The structure of the topics and projects of this course are as follows:
