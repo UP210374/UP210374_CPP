@@ -1,14 +1,12 @@
 # C++ Programming Course 
 #### UP210374_CPP
-<div align ="center">
-<img alt="c++" height="100" src="imagenes/logo.jpg"/>
-</div>
 
+The structure of the topics and projects of this course are as follows:
 
+* U1 Programming introduction
+* U2 Control structures and cycles
+* U3 Functions
+* U4 Files and arrays
 
-* Me gustan los cheetos
-* Estudio en la UPA
-* Aqui guardare mis trabajos de cada materia del cuatri sep-dic 2022
-* Soy dislexica
-
-
+To clone this repo, type this command on your console.
+>       git clone https://github.com/UP210374/UP210374_CPP.git
