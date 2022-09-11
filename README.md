@@ -1,5 +1,5 @@
-<a href="https://aimeos.org/">
-    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+<a href="https://www.google.com/">
+    <img src="https://www.freepng.es/png-93hy0r/" alt="c++ logo" title="C++" align="right" height="50" />
 </a>
 
 
