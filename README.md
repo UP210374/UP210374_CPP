@@ -1,7 +1,7 @@
 # C++ Programming Course 
 #### UP210374_CPP
 
-![logo](/Programacion/UP210374_CPP/imagenes/logo.jpg")
+![](/Programacion/UP210374_CPP/imagenes/logo.jpg")
 The structure of the topics and projects of this course are as follows:
 
 * U1 Programming introduction
@@ -14,7 +14,7 @@ To clone this repo, type this command on your console.
 
 contact me at:
 
-| Correo |                              |
+| e-mail |                              |
 --- | ---
-Institucional | up210374@alumnos.upa.edu.mx
+institutional | up210374@alumnos.upa.edu.mx
 Personal | palvarezmartinez19@gmail.com
