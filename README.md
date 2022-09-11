@@ -1,4 +1,4 @@
-<a href="https://www.google.com/">
+<a href="https://www.freepng.es/png-93hy0r/">
     <img src="https://www.freepng.es/png-93hy0r/" alt="c++ logo" title="C++" align="right" height="50" />
 </a>
 
