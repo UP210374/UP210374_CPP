@@ -2,7 +2,7 @@
 #### UP210374_CPP
 
 <div align ="center">
-<img alt="c++" height="60" src="[![logo-C.png](https://i.postimg.cc/cJzwCW4z/logo-C.png)](https://postimg.cc/Z9rCs1NP)"/>
+ [![logo-C.png](https://i.postimg.cc/cJzwCW4z/logo-C.png)](https://postimg.cc/Z9rCs1NP)
 </div>
 
 The structure of the topics and projects of this course are as follows:
