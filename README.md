@@ -1,10 +1,8 @@
-<a >
-    <[red imagen](/Downlands/Kisspng-the-c-programming-lenguage-computer-icons-comput-programming-5acadc2dec0be9.0824244915232440779669.jpg alt="c++ logo" title="C++" align="right" height="50" />
-</a>
-
-
 # C++ Programming Course 
 #### UP210374_CPP
+
+![red imagen](/Downlands/Kisspng-the-c-programming-lenguage-computer-icons-comput-programming-5acadc2dec0be9.0824244915232440779669.jpg)
+
 
 * Me gustan los cheetos
 * Estudio en la UPA
