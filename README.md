@@ -3,7 +3,6 @@
 
 <div align ="center">
 <img alt="c++" height="100" src="/imagenes/ISO_C++_Logo.svg.png"/>
-(♫)[https://www.youtube.com/watch?v=KM58U2RbrEY]
 </div>
 
 <br>
@@ -17,7 +16,7 @@ The structure of the topics and projects of this course are as follows:
 To clone this repo, type this command on your console.
 >       git clone https://github.com/UP210374/UP210374_CPP.git
 
-contact me at:
+Connect with me
 
 | e-mail |                              |
 --- | ---
