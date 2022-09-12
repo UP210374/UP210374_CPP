@@ -5,9 +5,7 @@
 <img alt="c++" height="100" src="/imagenes/ISO_C++_Logo.svg.png"/>
 </div>
 
-
-
-
+<br>
 The structure of the topics and projects of this course are as follows:
 
 * U1 Programming introduction
