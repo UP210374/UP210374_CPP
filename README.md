@@ -1,7 +1,7 @@
  C++ Programming Course 
 #### UP210374_CPP
 
-
+![C++](/imagenes/index.png)
 
 
 The structure of the topics and projects of this course are as follows:
