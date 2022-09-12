@@ -1,8 +1,7 @@
-# C++ Programming Course 
+ C++ Programming Course 
 #### UP210374_CPP
 
 
-[![logo-C.png](https://i.postimg.cc/cJzwCW4z/logo-C.png)](https://postimg.cc/Z9rCs1NP)
 
 
 The structure of the topics and projects of this course are as follows:
