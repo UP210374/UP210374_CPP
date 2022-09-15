@@ -14,7 +14,7 @@ Description: Mi primer programa en c++
 int main (){
     
     //Prints on screen a text
-    std::cout<< "Hello Cruel world, this is my first program";
+    std::cout<< "Hello Cruel world, this is my first program" << std::endl;
     //Return 0 that the program ends succesfully
     return 0;
 }
