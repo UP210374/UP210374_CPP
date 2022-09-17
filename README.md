@@ -7,12 +7,6 @@
 
 <br>
 
-<div align="center">
-[topics](#Topics) •
-[Clone my repo](#Clone-my-repo) •
-[Connect with me](#Connect-with-me) •
-</div>
-
 The structure of the topics and projects of this course are as follows:
 
 * U1 Programming introduction
