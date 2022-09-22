@@ -31,8 +31,8 @@ int main (){
     //https://cplusplus.com/reference/cstdio/printf/
     printf ("Usando la funcion printf y scanf\n");
     printf ("Ingresa un dato de tipo entero: ");
-    scanf ("%", &entero);
-    printf ("El dato ingresado es: %i \n", entero);
+    scanf ("%d", &entero);
+    printf ("El dato ingresado es: %d \n", entero);
 
     //Al ser una funcion debe retornar un valor, en este caso 0
     return 0;
