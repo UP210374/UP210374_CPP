@@ -9,35 +9,29 @@
 using namespace std;
 
 int main (){
-    int income, income1, totalAmountdue;
-    cout << "Enter your annual income: ";
+    int income;
+    float income1, totalAmountdue,tax, tax1;
+    cout << "Enter your annual income: $";
     cin >> income;
-    if (income<10000){
-        income1=(income*0.05);
-        totalAmountdue=(income-income1);
-        cout << "Your total amount due is: " << totalAmountdue << endl;
+    if (income>0 && income<10000){
+        tax=0.05;
     }
-    else if (income >= 10000 && income<20000){
-            income1=(income*0.15);
-            totalAmountdue=(income-income1);
-            cout << "Your total amount due is: " << totalAmountdue << endl;
+        else if (income >= 10000 && income<20000){
+            tax=0.15;
     }
     else if (income >=20000 && income<35000){
-            income1=(income*0.20);
-            totalAmountdue=(income-income1);
-            cout << "Your total amount due is: " << totalAmountdue << endl;
+            tax= 0.20;
     }
     else if (income>=35000 && income<=60000){
-            income1=(income*0.35);
-            totalAmountdue=(income-income1);
-            cout << "Your total amount due is: " << totalAmountdue << endl;
+            tax=0.35;
     }
     else if (income>60000){
-            income1=(income*0.45);
-            totalAmountdue=(income-income1);
-            cout << "Your total amount due is: " << totalAmountdue << endl;
+            tax=0.45;
     }
-    
+    tax1= tax*100;
+    cout << "Your tax is: " << tax1 << "%" << endl;
+    income1=(income*tax);
+    totalAmountdue=(income-income1);
+    cout << "Your total amount due is: " << "$" << totalAmountdue << endl;
     return 0;
-
 }
