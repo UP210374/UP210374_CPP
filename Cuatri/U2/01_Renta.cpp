@@ -38,7 +38,7 @@ int main (){
             tax= 0.20;
     }
     else if (income>=35000 && income<=60000){
-            tax=0.35;
+            tax=0.30;
     }
     else if (income>60000){
             tax=0.45;
@@ -52,3 +52,11 @@ int main (){
     cout << "Your total amount due is: " << "$" << totalAmountdue << endl;
     return 0;
 }
+
+/*
+What this program does is to ask for the annual rent from the owner of the house to evaluate in which range is the price given by the user. 
+the price range given by the user and then with nested if's it can determine what the respective 
+which will be the respective percentage of your tax.
+
+As a result it gives the rent, percentage and sum of the rent and the rent percentage.
+*/
