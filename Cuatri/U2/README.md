@@ -10,7 +10,7 @@ Section for tax selection
 
 Code
 
-<img alt="c++" height="400" src="/imagenes/code.png"/>
+<img alt="c++" height="450" src="/imagenes/code.png"/>
 
 Explanation
 
@@ -20,21 +20,21 @@ Tests
 
 Amount of $3500:
 
-<img alt="c++" height="250" src="/imagenes/prueba1.png"/>
+<img alt="c++" height="100" src="/imagenes/prueba1.png"/>
 
 Amount of $15000:
 
-<img alt="c++" height="250" src="/imagenes/prueba2.png"/>
+<img alt="c++" height="100" src="/imagenes/prueba2.png"/>
 
 Amoutn of $30000:
 
-<img alt="c++" height="250" src="/imagenes/prueba3.png"/>
+<img alt="c++" height="100" src="/imagenes/prueba3.png"/>
 
 Amount of $45000:
 
-<img alt="c++" height="250" src="/imagenes/prueba4.png"/>
+<img alt="c++" height="100" src="/imagenes/prueba4.png"/>
 
 Amount of $70000:
 
-<img alt="c++" height="250" src="/imagenes/prueba5.png"/>
+<img alt="c++" height="100" src="/imagenes/prueba5.png"/>
 
