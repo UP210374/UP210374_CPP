@@ -6,8 +6,7 @@
 
 Section for tax selection
 
-<div align ="center">
-<img alt="c++" height="100" src="../imagenes/Screenshot from 2022-09-24 21-50-23.png"/>
-</div> 
+<img alt="c++" height="100" src="/imagenes/Screenshot from 2022-09-24 21-50-23.png"/>
+ 
 
 
