@@ -9,9 +9,9 @@
     Income Tax rate
     Less than $10,000 5%.
     Between $10,000 and $20,000 15%.
-    Between $20,000 and $35,000 20% 20% Between $35,000 and $60,000 30% 30% Between $35,000 and $60,000
-    Between $35,000 and $60,000 30% Over $60,000 45% Over $60,000 45% Over $60,000
-    More than $60,000 45% Write a program that asks the user to
+    Between $20,000 and $35,000 20%.
+    Between $35,000 and $60,000 30%.
+    More than $60,000 45% 
 
     Write a program that asks the user for his annual income and displays on the screen the 
     the corresponding tax rate on the screen.      
