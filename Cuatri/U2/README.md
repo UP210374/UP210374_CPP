@@ -7,7 +7,7 @@
 Section for tax selection
 
 <div align ="center">
-<img alt="structure" height="150" src="../imagenes//home/paupau/Documents/UP210374/UP210374_CPP/imagenes/Screenshot from 2022-09-24 21-50-23.png"/>
+<img alt="c++" height="100" src="/imagenes//home/paupau/Documents/UP210374/UP210374_CPP/imagenes/Screenshot from 2022-09-24 21-50-23.png"/>
 </div> 
 
 
