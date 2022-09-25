@@ -14,7 +14,7 @@ Code
 
 Explanation
 
-<img alt="c++" height="200" src="/imagenes/Screenshot from 2022-09-24 23-20-52.png"/>
+<img alt="c++" height="100" src="/imagenes/Screenshot from 2022-09-24 23-20-52.png"/>
 
 Tests 
 
