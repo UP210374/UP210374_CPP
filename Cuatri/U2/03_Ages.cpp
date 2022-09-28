@@ -14,11 +14,13 @@ int main(){
     cout << "How old are you? ";
     cin >> age;
     if (age<4){
-        cout << "suertudote, you can enter for free";
+        cout << "suertudote, you can enter for free" << endl;
     }
     else if (age>=4 && age <18){
-        cout << "You must pay $5";
+        cout << "You must pay $5" << endl;
     }
     else 
-    cout << "You must pay $10";
+    cout << "You must pay $10" << endl;
+
+    return 0;
 }
