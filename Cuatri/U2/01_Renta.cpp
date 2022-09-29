@@ -11,13 +11,17 @@ using namespace std;
 int main (){
         //Declaration of variables
     int income;
+    int flag=0; 
+
     float income1, totalAmountdue,tax, tax1;
         //Ask the user your income
     cout << "Enter your annual income: $"; 
     cin >> income;
+
+
         //Assess the user's income to obtain the percentage to be paid
     if (income>0 && income<10000){
-        tax=0.05;
+        tax=0.05; 
     }
         else if (income >= 10000 && income<20000){
             tax=0.15;
@@ -30,7 +34,9 @@ int main (){
     }
     else if (income>60000){
             tax=0.45;
-    }
+    } 
+        //error handler
+    if (flag==0){
         //Calculate total amount due the user with your tax
     tax1= tax*100;
     cout << "Your tax is: " << tax1 << "%" << endl;
@@ -38,5 +44,10 @@ int main (){
     totalAmountdue=(income-income1);
         //Show the user your total amount due
     cout << "Your total amount due is: " << "$" << totalAmountdue << endl;
-    return 0;
+    } 
+    else{
+        cout << "Error" << endl;
+        flag=1;
+    }
+   return 0;
 }
