@@ -4,7 +4,7 @@
 
 ##### Exercise 1. Income
 
-Section for tax selection
+###Section for tax selection
 
 The tax brackets for the income tax return in a given country are as follows:
 
@@ -15,10 +15,10 @@ The tax brackets for the income tax return in a given country are as follows:
    -Between $35,000 and $60,000 30%.
    -More than $60,000 45% 
 
- Write a program that asks the user for his annual income and displays on the screen the 
- the corresponding tax rate on the screen
+Write a program that asks the user for his annual income and displays on the screen the 
+the corresponding tax rate on the screen
 
-Code
+###Code
 
 ```c++
 #include <iostream>
@@ -58,7 +58,7 @@ int main (){
 }
 ```
 
-Explanation
+###Explanation
 
 What this program does is to ask for the annual rent from the owner of the house to evaluate in which range is the price given by the user. 
 the price range given by the user and then with nested if's it can determine what the respective 
@@ -66,7 +66,7 @@ which will be the respective percentage of your tax.
 
 As a result it gives the rent, percentage and sum of the rent and the rent percentage.
 
-Tests 
+###Tests 
 
 Amount of $3500:
 
