@@ -40,7 +40,7 @@ int main (){
     }
     
     else 
-    cout << "Your percentage isn´t exist";
+    cout << "Your percentage isnt exist";
     
     return 0;
 }
