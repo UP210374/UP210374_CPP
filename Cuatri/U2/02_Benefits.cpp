@@ -29,8 +29,10 @@ using namespace std;
 int main (){
     double bonus, score;
     int percentage;
+    //ask the user you score
     cout << "Enter your score: ";
     cin >> score;
+    //evaluation of the user's score so that you know what your bonus is
     if (score==0.0 && score==0.4 && score>=0.6){
         percentage=score*100;
         cout << "Your percentage obtain in evaluetion is: " << percentage << "%" << endl;
