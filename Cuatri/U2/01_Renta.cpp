@@ -2,19 +2,7 @@
     Unit 2. Conditionals
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 22/09/2022
-    Description: Displays the tax rate according to your annual income
-
-    The tax brackets for the income tax return in a given country are as follows:
-
-    Income Tax rate
-    Less than $10,000 5%.
-    Between $10,000 and $20,000 15%.
-    Between $20,000 and $35,000 20%.
-    Between $35,000 and $60,000 30%.
-    More than $60,000 45% 
-
-    Write a program that asks the user for his annual income and displays on the screen the 
-    the corresponding tax rate on the screen.      
+    Description: Displays the tax rate according to your annual income      
 */
 
 #include <iostream>
@@ -52,11 +40,3 @@ int main (){
     cout << "Your total amount due is: " << "$" << totalAmountdue << endl;
     return 0;
 }
-
-/*
-What this program does is to ask for the annual rent from the owner of the house to evaluate in which range is the price given by the user. 
-the price range given by the user and then with nested if's it can determine what the respective 
-which will be the respective percentage of your tax.
-
-As a result it gives the rent, percentage and sum of the rent and the rent percentage.
-*/
