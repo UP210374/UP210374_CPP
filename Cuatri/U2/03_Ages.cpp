@@ -11,8 +11,10 @@ using namespace std;
 
 int main(){
     int age;
+    //ask the user your age
     cout << "How old are you? ";
     cin >> age;
+    //age assessment to find out how much you are going to pay 
     if (age<4){
         cout << "suertudote, you can enter for free" << endl;
     }
