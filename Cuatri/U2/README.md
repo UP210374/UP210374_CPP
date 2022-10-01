@@ -115,7 +115,7 @@ and can be translated into better benefits. The points that employees can earn c
 can be 0.0, 0.4, 0.6 or more, but not values in between. A
 The table below shows the levels corresponding to each score. The
 amount of money earned at each level is $2,400 multiplied by the level's score.
-score of the level.  </div>  
+score of the level.  </div>  <br>
 
 		
 | Level | Score |
@@ -162,23 +162,23 @@ int main (){
 
 Score of 0.0:
 
-<img alt="c++" height="60" src="/imagenes/score 0.0.png"/>
+<img alt="c++" height="50" src="/imagenes/score 0.0.png"/>
 
 Score of 0.4:
 
-<img alt="c++" height="60" src="/imagenes/score 0.4.png"/>
+<img alt="c++" height="50" src="/imagenes/score 0.4.png"/>
 
 Score of 0.6:
 
-<img alt="c++" height="60" src="/imagenes/score 0.6.png"/>
+<img alt="c++" height="50" src="/imagenes/score 0.6.png"/>
 
 Score of 0.7:
 
-<img alt="c++" height="60" src="/imagenes/score 0.7.png"/>
+<img alt="c++" height="50" src="/imagenes/score 0.7.png"/>
 
 Score of 0.5:
 
-<img alt="c++" height="60" src="/imagenes/score 0.5.png"/>
+<img alt="c++" height="50" src="/imagenes/score 0.5.png"/>
 
 ### Exercise 3. Ages
 
