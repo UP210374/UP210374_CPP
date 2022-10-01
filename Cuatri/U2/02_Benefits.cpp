@@ -2,7 +2,7 @@
     Unit 2. Conditionals 
     Author: Paulina Jaquelin Alvarez Martínez 
     Date: 26/09/2022
-    Description: Show your 
+    Description: Shows your bonus according to your percentage n
 */
 
 //Input/output library between the screen n' keyboard
