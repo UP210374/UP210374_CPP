@@ -117,13 +117,13 @@ The table below shows the levels corresponding to each score. The
 amount of money earned at each level is $2,400 multiplied by the level's score.
 score of the level.  </div>
 
-<div align ="center">			
+		
 | Level | Score |
 --- | --- 
 Unacceptable |  0.0
 Acceptable |  0.4
 Meritorious |  0.6 or higher
-</div>
+
 
 Write a program that reads the user's score and indicates his performance level,
 as well as the amount of money the user will receive.
@@ -161,19 +161,24 @@ int main (){
 #### Testing
 
 Score of 0.0:
-<img alt="c++" height="80" src="/imagenes/score 0.0.png"/>
+
+<img alt="c++" height="70" src="/imagenes/score 0.0.png"/>
 
 Score of 0.4:
-<img alt="c++" height="80" src="/imagenes/score 0.4.png"/>
+
+<img alt="c++" height="70" src="/imagenes/score 0.4.png"/>
 
 Score of 0.6:
-<img alt="c++" height="80" src="/imagenes/score 0.6.png"/>
+
+<img alt="c++" height="70" src="/imagenes/score 0.6.png"/>
 
 Score of 0.7:
-<img alt="c++" height="80" src="/imagenes/score 0.7.png"/>
+
+<img alt="c++" height="70" src="/imagenes/score 0.7.png"/>
 
 Score of 0.5:
-<img alt="c++" height="80" src="/imagenes/score 0.5.png"/>
+
+<img alt="c++" height="70" src="/imagenes/score 0.5.png"/>
 
 ### Exercise 3. Ages
 
@@ -216,13 +221,16 @@ int main(){
 #### Testing
 
 3 years old:
-<img alt="c++" height="80" src="/imagenes/edad de 3.png"/>
+
+<img alt="c++" height="70" src="/imagenes/edad de 3.png"/>
 
 4 years old:
-<img alt="c++" height="80" src="/imagenes/edad de 4.png"/>
+
+<img alt="c++" height="70" src="/imagenes/edad de 4.png"/>
 
 18 years old:
-<img alt="c++" height="80" src="/imagenes/edad de 18.png"/>
+
+<img alt="c++" height="70" src="/imagenes/edad de 18.png"/>
 
 ### Exercise 4. Pizzas
 
@@ -303,19 +311,24 @@ int main(){
 #### Testing
 
 Vegetarian with bell pepper, mozarella and tomato:
-<img alt="c++" height="80" src="/imagenes/vegetariana con bell pepper.png"/>
+
+<img alt="c++" height="100" src="/imagenes/vegetariana con bell pepper.png"/>
 
 Vegetarian with tofu, mozarella and tomato:
-<img alt="c++" height="80" src="/imagenes/vegetariana con tofu.png"/>
+
+<img alt="c++" height="100" src="/imagenes/vegetariana con tofu.png"/>
 
 No vegetarian with peperoni, mozarella and tomato:
-<img alt="c++" height="80" src="/imagenes/no vegetariana con peperoni.png"/>
+
+<img alt="c++" height="100" src="/imagenes/no vegetariana con peperoni.png"/>
 
 No vegetarian with ham. mozarella and tomato:
-<img alt="c++" height="80" src="/imagenes/no vegetariana con ham.png"/>
+
+<img alt="c++" height="100" src="/imagenes/no vegetariana con ham.png"/>
 
 No vegetarian with salmon, mozarella and tomato:
-<img alt="c++" height="80" src="/imagenes/no vegetariana con salmon.png"/>
+
+<img alt="c++" height="100" src="/imagenes/no vegetariana con salmon.png"/>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
