@@ -6,7 +6,10 @@
 
 */
 
+//Input/output library between the screen n' keyboard
 #include<iostream>
+
+//Using namespace to avoid std
 using namespace std;
 
 int main(){
@@ -16,7 +19,7 @@ int main(){
     cin >> age;
     //age assessment to find out how much you are going to pay 
     if (age<4){
-        cout << "suertudote, you can enter for free" << endl;
+        cout << "Suertudote, you can enter for free" << endl;
     }
     else if (age>=4 && age <18){
         cout << "You must pay $5" << endl;

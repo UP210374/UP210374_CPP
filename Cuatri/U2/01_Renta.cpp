@@ -5,9 +5,14 @@
     Description: Displays the tax rate according to your annual income
 */
 
+//Input/output library between the screen n' keyboard
 #include <iostream>
+
+//Using namespace to avoid std
 using namespace std;
 
+
+//Main funtion of the enteger type
 int main()
 {
     // Declaration of variables
@@ -46,7 +51,7 @@ int main()
         flag = 1;
     }
 
-    // error handler
+        // error handler
     if (flag == 0)
     {
         // Calculate total amount due the user with your tax

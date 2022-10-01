@@ -5,7 +5,10 @@
     Description: Shows the choice of pizza and its menu
 */
 
+//Input/output library between the screen n' keyboard
 #include <iostream>
+
+//Using namespace to avoid std
 using namespace std;
 
 int main(){
@@ -50,7 +53,9 @@ int main(){
         else if (ingredient==3){
             cout << "You pizza isn´t vegetarian with salmon, mozarella and tomato"<<endl;
         }
+        cout << "Thank you for visiting Bella Napoli pizzas :D" << endl;
     }
+    else 
     //thank you to the customer for your purchase
     cout << "Thank you for visiting Bella Napoli pizzas :D"<< endl;
     return 0;
