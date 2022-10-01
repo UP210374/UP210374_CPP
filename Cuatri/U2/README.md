@@ -222,15 +222,15 @@ int main(){
 
 3 years old:
 
-<img alt="c++" height="50" src="/imagenes/edad de 3.png"/>
+<img alt="c++" height="40" src="/imagenes/edad de 3.png"/>
 
 4 years old:
 
-<img alt="c++" height="50" src="/imagenes/edad de 4.png"/>
+<img alt="c++" height="40" src="/imagenes/edad de 4.png"/>
 
 18 years old:
 
-<img alt="c++" height="50" src="/imagenes/edad de 18.png"/>
+<img alt="c++" height="40" src="/imagenes/edad de 18.png"/>
 
 ### Exercise 4. Pizzas
 
