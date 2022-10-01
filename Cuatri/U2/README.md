@@ -8,12 +8,12 @@
 
 The tax brackets for the income tax return in a given country are as follows:
 
-   Income Tax rate\
-   - Less than $10,000 5%.\
-   - Between $10,000 and $20,000 15%.\
-   - Between $20,000 and $35,000 20%.\
-   - Between $35,000 and $60,000 30%.\
-   - More than $60,000 45% \
+   Income Tax rate
+   - Less than $10,000 5%.
+   - Between $10,000 and $20,000 15%.
+   - Between $20,000 and $35,000 20%.
+   - Between $35,000 and $60,000 30%.
+   - More than $60,000 45% 
 
 Write a program that asks the user for his annual income and displays on the screen the 
 the corresponding tax rate on the screen
@@ -115,15 +115,15 @@ and can be translated into better benefits. The points that employees can earn c
 can be 0.0, 0.4, 0.6 or more, but not values in between. A
 The table below shows the levels corresponding to each score. The
 amount of money earned at each level is $2,400 multiplied by the level's score.
-score of the level.  </div>
-\
+score of the level.  </div> \
+
 		
 | Level | Score |
 --- | --- 
 Unacceptable |  0.0
 Acceptable |  0.4
 Meritorious |  0.6 or higher
-\
+
 
 Write a program that reads the user's score and indicates his performance level,
 as well as the amount of money the user will receive.
@@ -222,15 +222,15 @@ int main(){
 
 3 years old:
 
-<img alt="c++" height="70" src="/imagenes/edad de 3.png"/>
+<img alt="c++" height="60" src="/imagenes/edad de 3.png"/>
 
 4 years old:
 
-<img alt="c++" height="70" src="/imagenes/edad de 4.png"/>
+<img alt="c++" height="60" src="/imagenes/edad de 4.png"/>
 
 18 years old:
 
-<img alt="c++" height="70" src="/imagenes/edad de 18.png"/>
+<img alt="c++" height="60" src="/imagenes/edad de 18.png"/>
 
 ### Exercise 4. Pizzas
 
@@ -239,8 +239,8 @@ int main(){
 <div style="text-align: justify"> 
 Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
 ingredients for each type of pizza are listed below. </div>
-1. Vegetarian ingredients: Pepperoni and tofu.\
-1. Non-vegetarian ingredients: Pepperoni, Ham and Salmon.\
+1. Vegetarian ingredients: Pepperoni and tofu. <br>
+1. Non-vegetarian ingredients: Pepperoni, Ham and Salmon. <br>
 <div style="text-align: justify"> 
 Write a program that asks the user if he wants a vegetarian pizza or not, and depending on his answer, shows him a
 Depending on his answer, show him a menu with the available ingredients for him to choose from.
