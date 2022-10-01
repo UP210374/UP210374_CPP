@@ -242,7 +242,8 @@ int main(){
 Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
 ingredients for each type of pizza are listed below. </div>
 1. Vegetarian ingredients: Pepperoni and tofu. <br>
-1. Non-vegetarian ingredients: Pepperoni, Ham and Salmon. <br>
+2. Non-vegetarian ingredients: Pepperoni, Ham and Salmon. <br>
+
 <div style="text-align: justify"> 
 Write a program that asks the user if he wants a vegetarian pizza or not, and depending on his answer, shows him a
 Depending on his answer, show him a menu with the available ingredients for him to choose from.
