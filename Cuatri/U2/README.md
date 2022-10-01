@@ -15,8 +15,10 @@ The tax brackets for the income tax return in a given country are as follows:
    - Between $35,000 and $60,000 30%.
    - More than $60,000 45% 
 
+
+<div style="text-align: justify"> 
 Write a program that asks the user for his annual income and displays on the screen the 
-the corresponding tax rate on the screen
+the corresponding tax rate on the screen. </div>
 
 #### Code
 
