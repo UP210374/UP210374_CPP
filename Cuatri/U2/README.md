@@ -241,8 +241,8 @@ int main(){
 <div style="text-align: justify"> 
 Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
 ingredients for each type of pizza are listed below. </div>
-1. Vegetarian ingredients: Pepperoni and tofu. <br>
-2. Non-vegetarian ingredients: Pepperoni, Ham and Salmon. <br>
+<br>1. Vegetarian ingredients: Pepperoni and tofu. <br>
+<br>2. Non-vegetarian ingredients: Pepperoni, Ham and Salmon. <br>
 
 <div style="text-align: justify"> 
 Write a program that asks the user if he wants a vegetarian pizza or not, and depending on his answer, shows him a
@@ -332,6 +332,93 @@ No vegetarian with ham. mozarella and tomato:
 No vegetarian with salmon, mozarella and tomato:
 
 <img alt="c++" height="150" src="/imagenes/no vegetariana con salmon.png"/>
+
+### Exercise 5. Temperature
+
+#### Section to know how many temperatures will be evaluated 
+Make a program in which you enter 6 temperatures and determine the average, the lowest and the highest temperature.
+and the highest.
+
+#### Code 
+
+```c++
+//Input/output library between the screen n' keyboard
+#include <iostream>
+
+//Using namespace to avoid std
+using namespace std;
+
+
+//Main funtion of the float type
+int main(){
+        //Declaration of variables 
+    float temperature, sum=0;
+    int temMax=0, temMin=9999;
+        //Testing of temperatures
+    for (int i=1;i<=6;i++){
+        cout << "Enter the temperature to evaluate: ";
+        cin >> temperature;
+        sum=sum+temperature;
+        if (temperature<=temMin)
+            temMin=temperature;
+        if (temperature >=temMax)
+            temMax=temperature;
+    }
+        //Impression of the results 
+    cout << "The average of the temperatures is: " << sum/6 <<  endl;
+    cout << "The lowest temperature is: " << temMin << endl;
+    cout << "The hightest temperature is: " << temMax << endl;
+
+    return 0;
+}
+```
+
+#### Testing 
+
+
+### Exercise 6. Quantity
+
+#### Section to condition that the user has already entered the total amount of products obtained
+
+To create a program that reads indefinitely quantities of products and their price, and at the end of the program it
+and at the end indicates the total of the invoice. To know that the purchase has been completed, a 0 must be entered in the quantity. Enter a 0 in the quantity.
+
+#### Code 
+
+```c++
+//Input/output library between the screen n' keyboard
+#include <iostream>
+
+//Using namespace to avoid std
+using namespace std;
+
+
+//Main funtion of type double and integer
+int main(){
+        //Declaration of variables
+    double price, totalAccount=0,total;
+    int sold;
+        //
+    do {
+        cout << "Enter the quantity sold: ";
+        cin >> sold;
+        cout << "Enter the price of the item: ";
+        cin >> price;
+        total=(sold*price);
+        totalAccount=totalAccount + total;
+    }
+    while (sold || price !=0);
+        cout << "Finalizing the invoice" << endl;
+        cout << "The total account is: " << "$" <<  totalAccount << endl;
+    return 0;
+}
+```
+### Testing
+
+
+### Exercise 
+
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
