@@ -27,7 +27,7 @@ int main(){
             total=(sold*price);
             totalAccount=totalAccount + total;
         }
-    } while ((sold !=0 )|| (price !=0));
+    } while ((sold!=0 ) || (price !=0));
         cout << "Finalizing the invoice" << endl;
         cout << "The total account is: " << "$" <<  totalAccount << endl;
     return 0;
