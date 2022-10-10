@@ -4,8 +4,6 @@
 
 ### Exercise 1. Income
 
-#### Section for tax selection
-
 The tax brackets for the income tax return in a given country are as follows:
 
    Income Tax rate
@@ -107,17 +105,14 @@ Amount of $70000:
 <img alt="c++" height="100" src="/imagenes/prueba5.png"/>
 
 ### Exercise 2. Benefits
-
-### Section for the benefit of your score
  
-<div style="text-align: justify"> 
 In a given company, its employees are evaluated at the end of each year.
 The points they can obtain in the evaluation start at 0.0 and can increase,
 and can be translated into better benefits. The points that employees can earn can be 0.0, 0.4
 can be 0.0, 0.4, 0.6 or more, but not values in between. A
 The table below shows the levels corresponding to each score. The
 amount of money earned at each level is $2,400 multiplied by the level's score.
-score of the level.  </div>  <br>
+score of the level.  
 
 		
 | Level | Score |
@@ -184,14 +179,11 @@ Score of 0.5:
 
 ### Exercise 3. Ages
 
-#### Section to know when you pay according to your age 
-
-<div style="text-align: justify"> 
 Write a program for a company that has arcades for all ages and wants to automatically calculate the price that the user will receive.
 wants to automatically calculate the price it should charge its customers to enter. The
 program should ask the user for the age of the customer and display the price of admission. If
 the customer is under 4 years old can enter for free, if he is between 4 and 18 years old he must pay $5 and if he is over 18 years old, $10.
-if over 18, $10. </div>
+if over 18, $10. 
 
 #### Code 
 
@@ -235,22 +227,18 @@ int main(){
 <img alt="c++" height="40" src="/imagenes/edad de 18.png"/>
 
 ### Exercise 4. Pizzas
-
-#### Section for pizza selection
-
-<div style="text-align: justify"> 
+ 
 Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
-ingredients for each type of pizza are listed below. </div>
+ingredients for each type of pizza are listed below. 
 <br>1. Vegetarian ingredients: Pepperoni and tofu. <br>
 <br>2. Non-vegetarian ingredients: Pepperoni, Ham and Salmon. <br>
 
-<div style="text-align: justify"> 
 Write a program that asks the user if he wants a vegetarian pizza or not, and depending on his answer, shows him a
 Depending on his answer, show him a menu with the available ingredients for him to choose from.
 Only one topping can be chosen in addition to the mozzarella and tomato that are on all the pizzas.
 pizzas.
 At the end of the screen it should be shown whether the chosen pizza is vegetarian or not and all the toppings included.
-ingredients it contains.</div>
+ingredients it contains.
 
 #### Code 
 
@@ -334,8 +322,7 @@ No vegetarian with salmon, mozarella and tomato:
 <img alt="c++" height="150" src="/imagenes/no vegetariana con salmon.png"/>
 
 ### Exercise 5. Temperature
-
-#### Section to know how many temperatures will be evaluated 
+ 
 Make a program in which you enter 6 temperatures and determine the average, the lowest and the highest temperature.
 and the highest.
 
@@ -378,8 +365,6 @@ int main(){
 
 ### Exercise 6. Quantity
 
-#### Section to condition that the user has already entered the total amount of products obtained
-
 To create a program that reads indefinitely quantities of products and their price, and at the end of the program it
 and at the end indicates the total of the invoice. To know that the purchase has been completed, a 0 must be entered in the quantity. Enter a 0 in the quantity.
 
@@ -398,26 +383,79 @@ int main(){
         //Declaration of variables
     double price, totalAccount=0,total;
     int sold;
-        //
+        //Sum of the total number of products purchased according to price 
     do {
         cout << "Enter the quantity sold: ";
         cin >> sold;
-        cout << "Enter the price of the item: ";
-        cin >> price;
-        total=(sold*price);
-        totalAccount=totalAccount + total;
-    }
-    while (sold || price !=0);
+        if (sold>0){
+            cout << "Enter the price of the item: ";
+            cin >> price;
+            total=(sold*price);
+            totalAccount=totalAccount + total;
+        }
+        //The price variable is reset to 0
+        price = 0;
+        }while ((sold!=0 ) || (price !=0));
+        //The result is printed to the user 
         cout << "Finalizing the invoice" << endl;
         cout << "The total account is: " << "$" <<  totalAccount << endl;
     return 0;
 }
 ```
-### Testing
+#### Testing
 
 
-### Exercise 
+### Exercise 7. Binary
 
+Make a program that performs the conversion from binary to decimal, only for integers greater than 0.
+integers greater than 0. The result can be displayed as an integer variable or as a character set.
+set of characters.
+
+#### Code 
+
+```c++
+//Input/output library between the screen n' keyboard
+#include <iostream>
+
+//Using namespace to avoid std
+using namespace std;
+
+
+//Main funtion of type string and integer
+
+int main()
+{
+    int number;
+    string result;
+    //Ask the user for the number to be converted from decimal to binary 
+    cout << "Entry a number decimal ";
+    cin >> number;
+    //Division of the decimal coefficients 
+    do
+    {
+        if (number > 0)
+        {
+            while (number != 0)
+            {
+                result = (number % 2 == 0) ? "0" + result : "1" + result;
+
+                number /= 2;
+            }
+        }
+        else if (number == 0)
+        {
+            cout << "Mayor a cero";
+        }
+
+        // Line break
+        cout << "\n";
+    } while (number < 0);
+
+    cout << "The number in binary is: " << result << endl;
+    return 0;
+}
+```
+#### Testing 
 
 
 
