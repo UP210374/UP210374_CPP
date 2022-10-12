@@ -2,7 +2,7 @@
     Unit 2. Conditionals
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 07/10/2022
-    Description: Shows
+    Description: Gives the conversion from decimal to binary 
 */
 
 //Input/output library between the screen n' keyboard
