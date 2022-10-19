@@ -25,7 +25,7 @@ int main (){
         cout << "Your percentage obtain in evaluetion is: " << percentage << "%" << endl;
         cout << "Your bonus is: " <<"$"<< bonus << endl;
     }
-    
+    //If the user did not obtain a score among the desired ones, the following will be printed
     else 
     cout << "Your percentage isnt exist" << endl;
     

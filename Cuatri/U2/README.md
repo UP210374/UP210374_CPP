@@ -21,6 +21,13 @@ the corresponding tax rate on the screen. </div>
 #### Code
 
 ```c++
+//Input/output library between the screen n' keyboard
+#include <iostream>
+
+//Using namespace to avoid std
+using namespace std;
+
+
 //Main funtion of the enteger type
 int main()
 {
@@ -54,13 +61,12 @@ int main()
     {
         tax = 0.45;
     }
+    //The flags are to detect a possible error, in this case if the flag is 1 it prints "error", otherwise it performs the corresponding operations.
     else
     {
 
         flag = 1;
     }
-
-        // error handler
     if (flag == 0)
     {
         // Calculate total amount due the user with your tax
@@ -148,7 +154,7 @@ int main (){
         cout << "Your percentage obtain in evaluetion is: " << percentage << "%" << endl;
         cout << "Your bonus is: " <<"$"<< bonus << endl;
     }
-    
+    //If the user did not obtain a score among the desired ones, the following will be printed
     else 
     cout << "Your percentage isnt exist" << endl;
     
@@ -203,7 +209,7 @@ int main(){
     if (age<4){
         cout << "Suertudote, you can enter for free" << endl;
     }
-    else if (age>=4 && age<18){
+    else if (age>=4 && age <18){
         cout << "You must pay $5" << endl;
     }
     else 
@@ -258,14 +264,14 @@ int main(){
     cout << "1. vegetarian" << endl;
     cout <<"2. Not vegetarian" << endl;
     cin >> pizza;
-    //vegetarian pizza
+    //Choice of vegetarian pizza menu
     if (pizza== 1){
         cout << "Vegetarian ingredients are: Bell pepper and tofu" << endl;
         cout << "1. Bell pepper" << endl;
         cout << "2. Tofu" << endl;
         cout <<"What ingredient do you want? " << endl;
         cin >> ingredient;
-        //vegetarian pizza ingedients
+        //Choice of vegetarian pizza ingedients
         if (ingredient==1){
             cout << "You pizza is vegetarian with bell pepper, mozarella and tomato" << endl;
         }
@@ -273,7 +279,7 @@ int main(){
             cout << "You pizza is vegetarian with tofu, mozarella and tomato" << endl;
         }
     }
-    //not vegtsrian pizza
+    //Choice of not vegtsrian pizza menu
     if (pizza==2){
         cout << "Not vegetarian ingredients are: Peperoni, Ham and Salmon" << endl;
         cout << "1. Peperoni" << endl;
@@ -281,7 +287,7 @@ int main(){
         cout << "3. Salmon" << endl;
         cout << "What ingredient do you want? " << endl;
         cin >> ingredient;
-        //not vegetarian pizza ingedients
+        //Choice of not vegetarian pizza ingedients
         if (ingredient==1){
             cout << "You pizza isn´tvegetarian with peperoni, mozarella and tomato"<< endl;
         }
@@ -294,7 +300,7 @@ int main(){
         cout << "Thank you for visiting Bella Napoli pizzas :D" << endl;
     }
     else 
-    //thank you to the customer for your purchase
+    //Thank you to the customer for your purchase
     cout << "Thank you for visiting Bella Napoli pizzas :D"<< endl;
     return 0;
 }
@@ -341,7 +347,7 @@ int main(){
         //Declaration of variables 
     float temperature, sum=0;
     int temMax=0, temMin=9999;
-        //Testing of temperatures
+        //6-temperature testing 
     for (int i=1;i<=6;i++){
         cout << "Enter the temperature to evaluate: ";
         cin >> temperature;
@@ -351,7 +357,7 @@ int main(){
         if (temperature >=temMax)
             temMax=temperature;
     }
-        //Impression of the results 
+        //Printout of averaged temperature results and their comparison 
     cout << "The average of the temperatures is: " << sum/6 <<  endl;
     cout << "The lowest temperature is: " << temMin << endl;
     cout << "The hightest temperature is: " << temMax << endl;
@@ -361,6 +367,10 @@ int main(){
 ```
 
 #### Testing 
+
+Average and comparison (lowest and highest temperature) between the 6 given user temperatures:
+
+<img alt="c++" height="150" src="/imagenes/temperatures.png"/>
 
 
 ### Exercise 6. Quantity
@@ -393,7 +403,7 @@ int main(){
             total=(sold*price);
             totalAccount=totalAccount + total;
         }
-        //The price variable is reset to 0
+        //The price variable is reset to 0, to indicate that the user is finished with the purchase. 
         price = 0;
         }while ((sold!=0 ) || (price !=0));
         //The result is printed to the user 
@@ -404,6 +414,9 @@ int main(){
 ```
 #### Testing
 
+Invoice total according to quantity of products purchased:
+
+<img alt="c++" height="150" src="/imagenes/sold.png"/>
 
 ### Exercise 7. Binary
 
@@ -430,7 +443,7 @@ int main()
     //Ask the user for the number to be converted from decimal to binary 
     cout << "Entry a number decimal ";
     cin >> number;
-    //Division of the decimal coefficients 
+    //Division of the decimal coefficients by two by adding each result, where the remainder is a 1 and the remainder is 0. 
     do
     {
         if (number > 0)
@@ -444,18 +457,22 @@ int main()
         }
         else if (number == 0)
         {
-            cout << "Mayor a cero";
+            cout << "Greater than 0";
         }
 
         // Line break
         cout << "\n";
     } while (number < 0);
-
+    //Printout of the result in binary 
     cout << "The number in binary is: " << result << endl;
     return 0;
 }
 ```
 #### Testing 
+
+conversion from decimal to binary of 188:
+
+
 
 
 

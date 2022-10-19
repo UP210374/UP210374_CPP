@@ -45,13 +45,12 @@ int main()
     {
         tax = 0.45;
     }
+    //The flags are to detect a possible error, in this case if the flag is 1 it prints "error", otherwise it performs the corresponding operations.
     else
     {
 
         flag = 1;
     }
-
-        // error handler
     if (flag == 0)
     {
         // Calculate total amount due the user with your tax

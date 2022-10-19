@@ -19,9 +19,9 @@ int main()
     int number;
     string result;
     //Ask the user for the number to be converted from decimal to binary 
-    cout << "Entry a number decimal ";
+    cout << "Entry a number decimal: ";
     cin >> number;
-    //Division of the decimal coefficients 
+    //Division of the decimal coefficients by two by adding each result, where the remainder is a 1 and the remainder is 0. 
     do
     {
         if (number > 0)
@@ -35,13 +35,13 @@ int main()
         }
         else if (number == 0)
         {
-            cout << "Mayor a cero";
+            cout << "Greater than 0";
         }
 
         // Line break
         cout << "\n";
     } while (number < 0);
-
+    //Printout of the result in binary 
     cout << "The number in binary is: " << result << endl;
     return 0;
 }

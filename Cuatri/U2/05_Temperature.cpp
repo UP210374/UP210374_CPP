@@ -17,7 +17,7 @@ int main(){
         //Declaration of variables 
     float temperature, sum=0;
     int temMax=0, temMin=9999;
-        //Testing of temperatures
+        //6-temperature testing 
     for (int i=1;i<=6;i++){
         cout << "Enter the temperature to evaluate: ";
         cin >> temperature;
@@ -27,7 +27,7 @@ int main(){
         if (temperature >=temMax)
             temMax=temperature;
     }
-        //Impression of the results 
+        //Printout of averaged temperature results and their comparison 
     cout << "The average of the temperatures is: " << sum/6 <<  endl;
     cout << "The lowest temperature is: " << temMin << endl;
     cout << "The hightest temperature is: " << temMax << endl;

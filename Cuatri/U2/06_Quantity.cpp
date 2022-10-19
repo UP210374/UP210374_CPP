@@ -27,7 +27,7 @@ int main(){
             total=(sold*price);
             totalAccount=totalAccount + total;
         }
-        //The price variable is reset to 0
+        //The price variable is reset to 0, to indicate that the user is finished with the purchase. 
         price = 0;
         }while ((sold!=0 ) || (price !=0));
         //The result is printed to the user 

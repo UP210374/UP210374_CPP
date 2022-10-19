@@ -20,14 +20,14 @@ int main(){
     cout << "1. vegetarian" << endl;
     cout <<"2. Not vegetarian" << endl;
     cin >> pizza;
-    //vegetarian pizza
+    //Choice of vegetarian pizza menu
     if (pizza== 1){
         cout << "Vegetarian ingredients are: Bell pepper and tofu" << endl;
         cout << "1. Bell pepper" << endl;
         cout << "2. Tofu" << endl;
         cout <<"What ingredient do you want? " << endl;
         cin >> ingredient;
-        //vegetarian pizza ingedients
+        //Choice of vegetarian pizza ingedients
         if (ingredient==1){
             cout << "You pizza is vegetarian with bell pepper, mozarella and tomato" << endl;
         }
@@ -35,7 +35,7 @@ int main(){
             cout << "You pizza is vegetarian with tofu, mozarella and tomato" << endl;
         }
     }
-    //not vegtsrian pizza
+    //Choice of not vegtsrian pizza menu
     if (pizza==2){
         cout << "Not vegetarian ingredients are: Peperoni, Ham and Salmon" << endl;
         cout << "1. Peperoni" << endl;
@@ -43,7 +43,7 @@ int main(){
         cout << "3. Salmon" << endl;
         cout << "What ingredient do you want? " << endl;
         cin >> ingredient;
-        //not vegetarian pizza ingedients
+        //Choice of not vegetarian pizza ingedients
         if (ingredient==1){
             cout << "You pizza isn´tvegetarian with peperoni, mozarella and tomato"<< endl;
         }
@@ -56,7 +56,7 @@ int main(){
         cout << "Thank you for visiting Bella Napoli pizzas :D" << endl;
     }
     else 
-    //thank you to the customer for your purchase
+    //Thank you to the customer for your purchase
     cout << "Thank you for visiting Bella Napoli pizzas :D"<< endl;
     return 0;
 }
