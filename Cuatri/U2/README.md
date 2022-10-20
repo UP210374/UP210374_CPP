@@ -5,14 +5,16 @@
 #### Index
 
 - [Exercise 1](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-1-income)  
-- [Exercise 2]
-- [Exercise 3]  
-- [Exercise 4] 
-- [Exercise 5]
-- [Exercise 6]
-- [Exercise 7]
-- [Exercise 8]
-- [Exercise 9]
+- [Exercise 2](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-2-benefits)
+- [Exercise 3](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-3-ages)
+- [Exercise 4](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-4-pizzas)
+- [Exercise 5](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-5-temperature)
+- [Exercise 6](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-6-quantity)
+- [Exercise 7](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-7-binary)
+- [Exercise 8](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-8-multiplication-table)
+- [Exercise 9](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-9-bisection)
+
+
 ### Exercise 1. Income
 
 The tax brackets for the income tax return in a given country are as follows:
