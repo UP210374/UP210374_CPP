@@ -481,7 +481,7 @@ Conversion from decimal to binary of 188:
 
 If the user enters a 0:
 
-<img alt="c++" height="50" src="/imagenes/binary error.png"/>
+<img alt="c++" height="40" src="/imagenes/binary error.png"/>
 
 ### Exercise 8. Multiplication table 
 
@@ -535,7 +535,7 @@ Table from 5 to 12:
 
 Table from 3 to 14:
 
-<img alt="c++" height="200" src="/imagenes/table of 3.png"/>
+<img alt="c++" height="250" src="/imagenes/table of 3.png"/>
 
 ### Exercise 9. Bisection
 
