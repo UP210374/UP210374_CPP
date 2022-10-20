@@ -477,11 +477,11 @@ int main()
 
 Conversion from decimal to binary of 188:
 
-<img alt="c++" height="60" src="/imagenes/binary.png"/>
+<img alt="c++" height="50" src="/imagenes/binary.png"/>
 
 If the user enters a 0:
 
-<img alt="c++" height="60" src="/imagenes/binary error.png"/>
+<img alt="c++" height="50" src="/imagenes/binary error.png"/>
 
 ### Exercise 8. Multiplication table 
 
@@ -531,11 +531,11 @@ int main()
 
 Table from 5 to 12:
 
-<img alt="c++" height="190" src="/imagenes/table of 5.png"/>
+<img alt="c++" height="200" src="/imagenes/table of 5.png"/>
 
 Table from 3 to 14:
 
-<img alt="c++" height="180" src="/imagenes/table of 3.png"/>
+<img alt="c++" height="200" src="/imagenes/table of 3.png"/>
 
 ### Exercise 9. Bisection
 
