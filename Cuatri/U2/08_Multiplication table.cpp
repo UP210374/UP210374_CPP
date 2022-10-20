@@ -4,6 +4,17 @@
     Date: 12/10/2022
     Description: Displays the desired multiplication table 
 */
+
+using namespace std;
+int main(){
+     
+    return 0;
+}
+using namespace std;
+int main(){
+     
+    return 0;
+}
 // Input/output library between the screen n' keyboard
 #include <iostream>
 

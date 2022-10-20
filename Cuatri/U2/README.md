@@ -2,6 +2,17 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+####Index
+
+- [Exercise 1](https://github.com/UP210374/UP210374_CPP/tree/main/U2%20Control%20Structures%20and%20Cycles#-exercise-1--annual-rent-program-for-calculating-taxes-for-an-anual-rent-based-on-a-value-the-user-inputs)  
+- [Exercise 2]
+- [Exercise 3]  
+- [Exercise 4] 
+- [Exercise 5]
+- [Exercise 6]
+- [Exercise 7]
+- [Exercise 8]
+- [Exercise 9]
 ### Exercise 1. Income
 
 The tax brackets for the income tax return in a given country are as follows:
@@ -181,7 +192,7 @@ Score of 0.7:
 
 Score of 0.5:
 
-<img alt="c++" height="50" src="/imagenes/score 0.5.png"/>
+<img alt="c++" height="45" src="/imagenes/score 0.5.png"/>
 
 ### Exercise 3. Ages
 
