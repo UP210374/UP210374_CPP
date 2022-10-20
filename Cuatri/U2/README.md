@@ -234,10 +234,13 @@ int main(){
 
 ### Exercise 4. Pizzas
  
-Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
-ingredients for each type of pizza are listed below. 
+<br>Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
+ingredients for each type of pizza are listed below. <br>
+
+
 <br>1. Vegetarian ingredients: Pepperoni and tofu. <br>
 <br>2. Non-vegetarian ingredients: Pepperoni, Ham and Salmon. <br>
+
 
 Write a program that asks the user if he wants a vegetarian pizza or not, and depending on his answer, shows him a
 Depending on his answer, show him a menu with the available ingredients for him to choose from.
@@ -370,7 +373,7 @@ int main(){
 
 Average and comparison (lowest and highest temperature) between the 6 given user temperatures:
 
-<img alt="c++" height="150" src="/imagenes/temperatures.png"/>
+<img alt="c++" height="140" src="/imagenes/temperatures.png"/>
 
 
 ### Exercise 6. Quantity
@@ -416,7 +419,7 @@ int main(){
 
 Invoice total according to quantity of products purchased:
 
-<img alt="c++" height="150" src="/imagenes/sold.png"/>
+<img alt="c++" height="140" src="/imagenes/sold.png"/>
 
 ### Exercise 7. Binary
 
@@ -441,7 +444,7 @@ int main()
     int number;
     string result;
     //Ask the user for the number to be converted from decimal to binary 
-    cout << "Entry a number decimal ";
+    cout << "Entry a number decimal: ";
     cin >> number;
     //Division of the decimal coefficients by two by adding each result, where the remainder is a 1 and the remainder is 0. 
     do
@@ -454,26 +457,98 @@ int main()
 
                 number /= 2;
             }
+             //Printout of the result in binary 
+    cout << "The number in binary is: " << result << endl;
         }
         else if (number == 0)
         {
-            cout << "Greater than 0";
+        cout << "Please enter a number above 0" <<endl;
         }
 
         // Line break
         cout << "\n";
     } while (number < 0);
-    //Printout of the result in binary 
-    cout << "The number in binary is: " << result << endl;
+
+    //As a function it must return to a value, in this case 0
     return 0;
 }
 ```
 #### Testing 
 
-conversion from decimal to binary of 188:
+Conversion from decimal to binary of 188:
+
+<img alt="c++" height="140" src="/imagenes/binary.png"/>
+
+If the user enters a 0:
+
+<img alt="c++" height="140" src="/imagenes/binary error.png"/>
+
+### Exercise 8. Multiplication table 
+
+Make a program that gives a multiplication table according to the user's choice 
+
+#### Code 
+
+```c++
+// Input/output library between the screen n' keyboard
+#include <iostream>
+
+// Using namespace to avoid std
+using namespace std;
+
+// Main funtion of integer type
+
+int main()
+{
+    int table, number;
+    //Asks the user which multiplication table he/she is interested in and up to which number he/she wants his/her table. 
+    cout << "Which board do you want? ";
+    cin >> number;
+    cout << "Up to what number do you want your multiplication table? ";
+    cin >> table;
+    cout << "Your table is: " << number << endl;
+    //Cycle to perform multiplications with a container 
+    for (int i = 1; i <= table; i++)
+    {
+        //Cycle to place the separator lines of the table 
+        for (int j = 1; j <=40; j++)
+        {
+            cout << "-";
+        }
+        //Printout of the result to the user 
+        cout << endl;
+        cout << "|" << i << "\t" << "x" << "\t" << number << "\t" << "=" << "\t" << i*number << "\t" << "|" << endl;   
+    }
+    //Cycle to place end separator lines to tables 
+    for (int l=1; l<=40; l++){
+            cout << "-";
+        }
+    cout << endl;
+    return 0;
+}
+```
+#### Testing 
+
+Table from 5 to 12:
+
+<img alt="c++" height="140" src="/imagenes/table of 5.png"/>
+
+Table from 3 to 14:
+
+<img alt="c++" height="140" src="/imagenes/table of 3.png"/>
+
+### Exercise 9. Bisection
+
+Make a program that gives a multiplication table according to the user's choice 
+
+#### Code 
+
+```c++
+```
+#### Testing 
 
 
-
+<img alt="c++" height="140" src="/imagenes/table of 3.png"/>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)

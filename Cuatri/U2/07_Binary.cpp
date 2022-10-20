@@ -32,17 +32,19 @@ int main()
 
                 number /= 2;
             }
+             //Printout of the result in binary 
+    cout << "The number in binary is: " << result << endl;
         }
         else if (number == 0)
         {
-            cout << "Greater than 0";
+        cout << "Please enter a number above 0" <<endl;
         }
 
         // Line break
         cout << "\n";
     } while (number < 0);
-    //Printout of the result in binary 
-    cout << "The number in binary is: " << result << endl;
+
+    //As a function it must return to a value, in this case 0
     return 0;
 }
     
