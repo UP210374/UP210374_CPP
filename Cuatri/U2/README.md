@@ -4,7 +4,7 @@
 
 #### Index
 
-- [Exercise 1](https://github.com/UP210374/UP210374_CPP/blob/main/Cuatri/U2/01_Renta.cpp)  
+- [Exercise 1](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-1-income)  
 - [Exercise 2]
 - [Exercise 3]  
 - [Exercise 4] 
