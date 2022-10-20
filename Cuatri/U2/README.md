@@ -373,7 +373,7 @@ int main(){
 
 Average and comparison (lowest and highest temperature) between the 6 given user temperatures:
 
-<img alt="c++" height="140" src="/imagenes/temperatures.png"/>
+<img alt="c++" height="120" src="/imagenes/temperatures.png"/>
 
 
 ### Exercise 6. Quantity
@@ -419,7 +419,7 @@ int main(){
 
 Invoice total according to quantity of products purchased:
 
-<img alt="c++" height="140" src="/imagenes/sold.png"/>
+<img alt="c++" height="120" src="/imagenes/sold.png"/>
 
 ### Exercise 7. Binary
 
@@ -477,11 +477,11 @@ int main()
 
 Conversion from decimal to binary of 188:
 
-<img alt="c++" height="140" src="/imagenes/binary.png"/>
+<img alt="c++" height="60" src="/imagenes/binary.png"/>
 
 If the user enters a 0:
 
-<img alt="c++" height="140" src="/imagenes/binary error.png"/>
+<img alt="c++" height="60" src="/imagenes/binary error.png"/>
 
 ### Exercise 8. Multiplication table 
 
@@ -531,11 +531,11 @@ int main()
 
 Table from 5 to 12:
 
-<img alt="c++" height="140" src="/imagenes/table of 5.png"/>
+<img alt="c++" height="190" src="/imagenes/table of 5.png"/>
 
 Table from 3 to 14:
 
-<img alt="c++" height="140" src="/imagenes/table of 3.png"/>
+<img alt="c++" height="180" src="/imagenes/table of 3.png"/>
 
 ### Exercise 9. Bisection
 
@@ -548,7 +548,7 @@ Make a program that gives a multiplication table according to the user's choice
 #### Testing 
 
 
-<img alt="c++" height="140" src="/imagenes/table of 3.png"/>
+<img alt="c++" height="140" src="/imagenes.png"/>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
