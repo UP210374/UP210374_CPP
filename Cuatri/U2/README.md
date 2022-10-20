@@ -531,7 +531,7 @@ int main()
 
 Table from 5 to 12:
 
-<img alt="c++" height="200" src="/imagenes/table of 5.png"/>
+<img alt="c++" height="250" src="/imagenes/table of 5.png"/>
 
 Table from 3 to 14:
 
@@ -539,7 +539,6 @@ Table from 3 to 14:
 
 ### Exercise 9. Bisection
 
-Make a program that gives a multiplication table according to the user's choice 
 
 #### Code 
 
