@@ -2,9 +2,9 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-####Index
+#### Index
 
-- [Exercise 1](https://github.com/UP210374/UP210374_CPP/tree/main/U2%20Control%20Structures%20and%20Cycles#-exercise-1--annual-rent-program-for-calculating-taxes-for-an-anual-rent-based-on-a-value-the-user-inputs)  
+- [Exercise 1](https://github.com/UP210374/UP210374_CPP/blob/main/Cuatri/U2/01_Renta.cpp)  
 - [Exercise 2]
 - [Exercise 3]  
 - [Exercise 4] 
