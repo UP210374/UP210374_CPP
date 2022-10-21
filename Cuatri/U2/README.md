@@ -1,5 +1,8 @@
-## <h1 Unidad 2. Control structures and cycles align="center">
-    <img alt="Exercise1" height="30" src="Imagenes/exercise1.gif"/> </h1>
+<br />
+<h1 align="center">
+    <img alt="Exercise1" height="30" src="Imagenes/exercise1.gif"/>
+Unidad 2. Control structures and cycles 
+</h1>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -674,14 +677,11 @@ No root between the numbers:
 
 <img alt="c++" height="50" src="/imagenes/no root.png"/>
 
-
 <br /><br />
 <br /><h3 align="center">
 
 [Return to Index](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#index)
 
 <br /><br /><br /><br /><br />
-
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
