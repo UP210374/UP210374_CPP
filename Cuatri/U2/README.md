@@ -6,12 +6,12 @@
 
 #### Index
 
-- [Exercise 1](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-1-income)  
+- [Exercise 1](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-1-income----)  
 - [Exercise 2](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-2-benefits)
 - [Exercise 3](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-3-ages)
-- [Exercise 4](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-4-pizzas)
-- [Exercise 5](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-5-temperature)
-- [Exercise 6](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-6-quantity)
+- [Exercise 4](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-4-pizzas-----)
+- [Exercise 5](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-5-temperature----)
+- [Exercise 6](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-6-quantity----)
 - [Exercise 7](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-7-binary)
 - [Exercise 8](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-8-multiplication-table)
 - [Exercise 9](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-9-bisection)
@@ -497,7 +497,7 @@ If the user enters a 0:
 
 <img alt="c++" height="40" src="/imagenes/binary error.png"/>
 
-### Exercise 8. Multiplication table    <img alt="c++" height="40" src="/imagenes/tabla.gif"/>
+### Exercise 8. Multiplication table    
 
 Make a program that gives a multiplication table according to the user's choice 
 
