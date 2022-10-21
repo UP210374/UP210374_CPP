@@ -1,4 +1,5 @@
-## Unidad 2. Control structures and cycles <img alt="unit 2" height="30" src="Imagenes/gif.gif"/>
+## <h1 Unidad 2. Control structures and cycles align="center">
+    <img alt="Exercise1" height="30" src="Imagenes/exercise1.gif"/> </h1>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -663,20 +664,24 @@ Code performs:
 
 First root:
 
-<img alt="c++" height="140" src="/imagenes/bisection1.png"/>
+<img alt="c++" height="250" src="/imagenes/bisection1.png"/>
 
 Second root:
 
-<img alt="c++" height="140" src="/imagenes/bisection2.png"/>
+<img alt="c++" height="250" src="/imagenes/bisection2.png"/>
 
 No root between the numbers:
 
-<img alt="c++" height="140" src="/imagenes/no root.png"/>
+<img alt="c++" height="50" src="/imagenes/no root.png"/>
 
 
-<div align ="center">
+<br /><br />
+<br /><h3 align="center">
+
 [Return to Index](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#index)
-</div> 
+
+<br /><br /><br /><br /><br />
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
