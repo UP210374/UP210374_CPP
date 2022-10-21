@@ -1,5 +1,5 @@
 /*
-    Unit 2. Conditionals
+    Unit 2. 
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 22/09/2022
     Description: Displays the tax rate according to your annual income

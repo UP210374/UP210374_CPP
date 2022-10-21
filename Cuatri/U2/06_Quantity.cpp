@@ -1,5 +1,5 @@
 /*
-    Unit 2. Conditionals
+    Unit 2. 
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 05/10/2022
     Description: Reads indefinitely the number of products and their prices 

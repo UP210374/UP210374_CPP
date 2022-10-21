@@ -1,5 +1,5 @@
 /*
-    Unit 2. Conditionals
+    Unit 2.
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 13/10/2022
     Description: Shows the bisection method to get a root of a graph

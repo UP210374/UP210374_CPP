@@ -1,5 +1,5 @@
 /*
-    Unit 2.Conditionals
+    Unit 2.
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 29/09/2022
     Description: Shows the choice of pizza and its menu

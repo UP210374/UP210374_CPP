@@ -1,5 +1,5 @@
 /*
-    Unit 2. Conditionals
+    Unit 2.
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 07/10/2022
     Description: Gives the conversion from decimal to binary 

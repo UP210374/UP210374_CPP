@@ -1,5 +1,5 @@
 /*
-    Unit 2. Conditionals
+    Unit 2.
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 01/10/2022
     Description: Shows the average temperatures and which is the lowest and which is the highest

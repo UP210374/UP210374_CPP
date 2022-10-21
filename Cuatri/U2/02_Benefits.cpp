@@ -1,5 +1,5 @@
 /*
-    Unit 2. Conditionals 
+    Unit 2. 
     Author: Paulina Jaquelin Alvarez Martínez 
     Date: 26/09/2022
     Description: Shows your bonus according to your percentage n

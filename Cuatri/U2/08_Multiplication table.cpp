@@ -1,5 +1,5 @@
 /*
-    Unit 2. Conditionals
+    Unit 2. 
     Author: Paulina Jaquelin Alvarez Martinez
     Date: 12/10/2022
     Description: Displays the desired multiplication table 
