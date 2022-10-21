@@ -2,7 +2,7 @@
     Unit 2. 
     Author: Paulina Jaquelin Alvarez Martínez 
     Date: 26/09/2022
-    Description: Shows your bonus according to your percentage n
+    Description: Shows your bonus according to your percentage 
 */
 
 //Input/output library between the screen n' keyboard
