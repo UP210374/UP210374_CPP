@@ -1,5 +1,5 @@
-<img alt="Exercise1" height="30" src="imagenes/gif.gif"/>
-Unidad 2. Control structures and cycles 
+
+Unidad 2. Control structures and cycles <img alt="c++" height="100" src="/imagenes/gif.gif"/>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
