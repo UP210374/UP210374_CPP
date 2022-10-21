@@ -1,5 +1,5 @@
 
-Unidad 2. Control structures and cycles <img alt="c++" height="30" src="/imagenes/bombilla.gif"/>
+## Unidad 2. Control structures and cycles <img alt="c++" height="30" src="/imagenes/bombilla.gif"/>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -17,7 +17,7 @@ Unidad 2. Control structures and cycles <img alt="c++" height="30" src="/imagene
 - [Exercise 9](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-9-bisection)
 
 
-### Exercise 1. Income
+### Exercise 1. Income <img alt="c++" height="30" src="/imagenes/billete.png"/>
 
 The tax brackets for the income tax return in a given country are as follows:
 
@@ -125,7 +125,7 @@ Amount of $70000:
 
 <img alt="c++" height="100" src="/imagenes/prueba5.png"/>
 
-### Exercise 2. Benefits
+### Exercise 2. Benefits <img alt="c++" height="30" src="/imagenes/benefits.gif"/>
  
 In a given company, its employees are evaluated at the end of each year.
 The points they can obtain in the evaluation start at 0.0 and can increase,
