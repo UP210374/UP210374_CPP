@@ -1,7 +1,6 @@
-<br />
-    <img alt="Exercise1" height="30" src="Imagenes/gif.gif"/>
+<img alt="Exercise1" height="30" src="imagenes/gif.gif"/>
 Unidad 2. Control structures and cycles 
-</h1>
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -681,4 +680,5 @@ No root between the numbers:
 [Return to Index](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#index)
 
 <br />
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
