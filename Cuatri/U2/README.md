@@ -17,7 +17,7 @@
 - [Exercise 9](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-9-bisection)
 
 
-### Exercise 1. Income 
+### Exercise 1. Income   <img alt="c++" height="30" src="/imagenes/dinero.webp"/>
 
 The tax brackets for the income tax return in a given country are as follows:
 
@@ -125,7 +125,7 @@ Amount of $70000:
 
 <img alt="c++" height="100" src="/imagenes/prueba5.png"/>
 
-### Exercise 2. Benefits <img alt="c++" height="60" src="/imagenes/benefits.gif"/>
+### Exercise 2. Benefits   <img alt="c++" height="60" src="/imagenes/benefit.png"/>
  
 In a given company, its employees are evaluated at the end of each year.
 The points they can obtain in the evaluation start at 0.0 and can increase,
@@ -198,7 +198,7 @@ Score of 0.5:
 
 <img alt="c++" height="45" src="/imagenes/score 0.5.png"/>
 
-### Exercise 3. Ages
+### Exercise 3. Ages   <img alt="c++" height="30" src="/imagenes/calculadora.png"/>
 
 Write a program for a company that has arcades for all ages and wants to automatically calculate the price that the user will receive.
 wants to automatically calculate the price it should charge its customers to enter. The
@@ -247,7 +247,7 @@ int main(){
 
 <img alt="c++" height="40" src="/imagenes/edad de 18.png"/>
 
-### Exercise 4. Pizzas
+### Exercise 4. Pizzas    <img alt="c++" height="30" src="/imagenes/pizza.gif"/>
  
 <br>Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
 ingredients for each type of pizza are listed below. <br>
@@ -345,7 +345,7 @@ No vegetarian with salmon, mozarella and tomato:
 
 <img alt="c++" height="150" src="/imagenes/no vegetariana con salmon.png"/>
 
-### Exercise 5. Temperature
+### Exercise 5. Temperature    <img alt="c++" height="30" src="/imagenes/temperatura.gif"/>
  
 Make a program in which you enter 6 temperatures and determine the average, the lowest and the highest temperature.
 and the highest.
@@ -391,7 +391,7 @@ Average and comparison (lowest and highest temperature) between the 6 given user
 <img alt="c++" height="120" src="/imagenes/temperatures.png"/>
 
 
-### Exercise 6. Quantity
+### Exercise 6. Quantity    <img alt="c++" height="30" src="/imagenes/sold1.gif"/>
 
 To create a program that reads indefinitely quantities of products and their price, and at the end of the program it
 and at the end indicates the total of the invoice. To know that the purchase has been completed, a 0 must be entered in the quantity. Enter a 0 in the quantity.
@@ -436,7 +436,7 @@ Invoice total according to quantity of products purchased:
 
 <img alt="c++" height="120" src="/imagenes/sold.png"/>
 
-### Exercise 7. Binary
+### Exercise 7. Binary    <img alt="c++" height="30" src="/imagenes/binary.png/>
 
 Make a program that performs the conversion from binary to decimal, only for integers greater than 0.
 integers greater than 0. The result can be displayed as an integer variable or as a character set.
@@ -498,7 +498,7 @@ If the user enters a 0:
 
 <img alt="c++" height="40" src="/imagenes/binary error.png"/>
 
-### Exercise 8. Multiplication table 
+### Exercise 8. Multiplication table    <img alt="c++" height="30" src="/imagenes/tabla.gif"/>
 
 Make a program that gives a multiplication table according to the user's choice 
 
@@ -552,7 +552,7 @@ Table from 3 to 14:
 
 <img alt="c++" height="250" src="/imagenes/table of 3.png"/>
 
-### Exercise 9. Bisection
+### Exercise 9. Bisection    <img alt="c++" height="30" src="/imagenes/bisec.gif"/>
 
 #### Code 
 
