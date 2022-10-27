@@ -11,57 +11,74 @@ using namespace std;
 
 //Function prototyping 
 int doCalculate(int);
-void getChange(int );
+void getChange(int);
+void getCoins(int);
+void displayChange(string);
+void displayCoins(string);
 
 //Declaration of global variables so that any function can call it 
 int quinientos=0, docientos=0, cien=0;
 int cincuenta=0, veinte=0;
 int diez=0, cinco=0, dos=0, uno=0;
+int residue;
 
-//Main funtion of type enteger
+//Main funtion
 int main(){
     int amount;
-    //Ask the user for the amount to be itemized 
+    string option;
     cout << "Enter your amount: ";
     cin >> amount;
-    //The function that performs the procedure is called to break down the amount to avoid repeating lines in the code. 
-    getChange(amount);
-    //As a function it must return to a value, in this case 0
+    cout << "Please choose an option to break down your amount" << endl;
+    cout << "Select a option:" << endl << "a)Bills and coins" << endl << "b)Only coins" << endl;
+    cin>> option;
+    if (option=="a"){
+
+        getChange(amount);
+        displayChange("Your change is:");
+    }
+    else if (option=="b"){
+        getCoins(amount);
+        displayCoins("Your change is:");
+    }else 
+        cout << "Please select other option valid" <<endl;
     return 0;
 }
 
-//Function that performs the calculation to determine the amount required in each type of banknote or currency 
 int doCalculate(int quantity, int amount)
 {
     int result;
     result=amount/quantity;
+    residue=amount%quantity;
+    amount=residue;
     return result;
 }
 
-//This function calls the previous function to perform the calculation of the residue that is obtained, leaving at the same time the amount of milletes or coins that are required to break it down and print it to the user.
 void getChange(int amount){
-    
     quinientos= doCalculate(500,amount);
-    amount=amount%500;
-    docientos= doCalculate(200,amount);
-    amount=amount%200;
-    cien= doCalculate(100,amount);
-    amount=amount%100;
-    cincuenta= doCalculate(50,amount);
-    amount=amount%50;
-    veinte= doCalculate(20,amount);
-    amount=amount%20;
-    diez= doCalculate(10,amount);
-    amount=amount%10;
-    cinco= doCalculate(5,amount);
-    amount=amount%5;
-    dos= doCalculate(2,amount);
-    amount=amount%2;
-    uno= doCalculate(1,amount);
-    amount=amount%1;
+    docientos= doCalculate(200,residue);
+    cien= doCalculate(100,residue);
+    cincuenta= doCalculate(50,residue);
+    veinte= doCalculate(20,residue);
+    diez= doCalculate(10,residue);
+    cinco= doCalculate(5,residue);
+    dos= doCalculate(2,residue);
+    uno= doCalculate(1,residue);
+}
 
-    cout << endl;
+void getCoins(int amount){
+    diez=doCalculate(10,amount);
+    cinco=doCalculate(5,residue);
+    dos=doCalculate(2,residue);
+    uno=doCalculate(1,residue);
+}
+
+void displayChange(string){
     cout << "Your change is: "<< endl;
     cout << "$500= " << quinientos << endl << "$200= " << docientos << endl <<"$100= " << cien << endl << "$50= " << cincuenta << endl <<"$20= " << veinte << endl << "$10= " << diez << endl 
     << "$5= " << cinco << endl << "$2= " << dos << endl << "$1= " << uno << endl;
+}
+
+void displayCoins(string){
+    cout << "Your change is: "<<endl;
+    cout << "$10= " << diez << endl << "$5= " << cinco << endl << "$2= " << dos << endl << "$1= " << uno << endl;
 }
