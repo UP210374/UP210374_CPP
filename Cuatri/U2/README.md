@@ -17,7 +17,7 @@
 - [Exercise 9](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U2#exercise-9-bisection)
 
 
-### Exercise 1. Income    <img alt="c++" height="40" src="/imagenes/dinero.webp"/>
+### Exercise 1. Income 
 The tax brackets for the income tax return in a given country are as follows:
 
    Income Tax rate
@@ -246,7 +246,7 @@ int main(){
 
 <img alt="c++" height="40" src="/imagenes/edad de 18.png"/>
 
-### Exercise 4. Pizzas     <img alt="c++" height="50" src="/imagenes/pizza.gif"/>
+### Exercise 4. Pizzas
  
 <br>Pizzeria Bella Napoli offers vegetarian and non-vegetarian pizzas to its customers. The
 ingredients for each type of pizza are listed below. <br>
@@ -344,7 +344,7 @@ No vegetarian with salmon, mozarella and tomato:
 
 <img alt="c++" height="150" src="/imagenes/no vegetariana con salmon.png"/>
 
-### Exercise 5. Temperature    <img alt="c++" height="50" src="/imagenes/temperatura.gif"/>
+### Exercise 5. Temperature
  
 Make a program in which you enter 6 temperatures and determine the average, the lowest and the highest temperature.
 and the highest.
@@ -390,7 +390,7 @@ Average and comparison (lowest and highest temperature) between the 6 given user
 <img alt="c++" height="120" src="/imagenes/temperatures.png"/>
 
 
-### Exercise 6. Quantity    <img alt="c++" height="50" src="/imagenes/sold1.gif"/>
+### Exercise 6. Quantity
 
 To create a program that reads indefinitely quantities of products and their price, and at the end of the program it
 and at the end indicates the total of the invoice. To know that the purchase has been completed, a 0 must be entered in the quantity. Enter a 0 in the quantity.
