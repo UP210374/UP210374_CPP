@@ -11,11 +11,13 @@ using namespace std;
 void displayBoard();
 void move();
 int selectPlay();
-bool checkBox(int);
+bool validValue(int);
+bool checkBusyBox(int);
 int setPlay(int);
 bool isWinner();
 
 int winner, play;
+bool isValid=true;
 int row, col, turn;
 char position[6][11] = {{' '}};
 
@@ -38,7 +40,9 @@ int main()
         do
         {
             play = selectPlay();
-            occupiedSquare = checkBox(play);
+            isValid=validValue(play);
+            if (isValid==false){
+                occupiedSquare = checkBusyBox(play);
             if (occupiedSquare == true)
             {
                 cout << "Select other play";
@@ -52,14 +56,18 @@ int main()
                 winner = isWinner();
             }
             turn++;
-        } while (turn <= 9 || winner == true);
+            }else {
+                cout << "Enter another play this one is invalid" << endl;
+            }
+        
+        } while (turn <= 9 && winner == false);
         if (winner == true)
         {
-            cout << "Congratulations you have won absolutely nothing but my appreciation for playing this game :)";
+            cout << "Congratulations you have won absolutely nothing but my appreciation for playing this game :)" << endl;
         }
         else
         {
-            cout << "oh sorry, you lost :(";
+            cout << "oh sorry, you lost :(" << endl;
         }
         
     }
@@ -124,7 +132,14 @@ int selectPlay()
     return play;
 }
 
-bool checkBox(int play)
+bool validValue(int play){
+    if (play!='1'||play!='2'||play!='3'||play!='4'||play!='5'||play!='6'||play!='7'||play!='8'||play!='9'){
+        return true;
+    }else {
+        return false;
+    }
+}
+bool checkBusyBox(int play)
 {
     if (position[row][col] == 'x' || position[row][col] == 'o')
     {
