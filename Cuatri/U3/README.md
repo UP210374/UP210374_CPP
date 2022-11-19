@@ -1,15 +1,14 @@
 <div align="center">
-</h2>
 
 ## TIC-TAC-TOE 
 
-</h2>
 <img src="../imagenes/tictactoe.gif" height="200" width="200">
 
 <div align="center">
 
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h3>
 
 #### Index
 - [Code Tic Tac Toe](https://github.com/UP210374/UP210374_CPP/blob/main/Cuatri/U3/TIC%20TAC%20TOE.cpp)
@@ -61,10 +60,19 @@ Depending on your operating system you have to follow the following steps to be 
 
 > ./04_Gato
 
+<h3>
+
+<div align="center">
 
 [Return to index](#index)
 
+<div align="center">
+
+<h3>
+
 ### Flowchart
+
+<h3>
 
 <div align="center">
 
@@ -73,7 +81,13 @@ Depending on your operating system you have to follow the following steps to be 
  [Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?beaconFlowId=1F5D55E5891A0B79&invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
 </br></br></br></br></br>
 
+<div align="center">
+
 [Return to index](#index)
+
+<div align="center">
+<h3>
+
 
 ### Testing and explanation
 
@@ -87,7 +101,21 @@ Depending on your operating system you have to follow the following steps to be 
 
 ## PLayer vs Player 
 ## Player vs PC
+
+<h3>
+<div align="center">
+
 [Return to index](#index)
 
+<div align="center">
+
+<h3>
+
 ## Conclusion 
+
+<h3>
+<div align="center">
+
 [Return to index](#index)
+
+<div align="center">
