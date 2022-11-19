@@ -155,8 +155,10 @@ void move()
 
 int selectPlay()
 {
-    cout << "Player" << " " << turn % 2 + 1 << endl;
-    cout << "Select your move: ";
+    int play;
+    cout << endl;
+    cout << "\x1B[38;2;17;245;120m" << "Player" << "\x1b[0m" << " " << "\x1B[38;2;17;245;120m" << turn % 2 + 1 << "\x1b[0m" << endl;
+    cout << "Please enter your play: ";
     cin >> play;
     return play;
 }
