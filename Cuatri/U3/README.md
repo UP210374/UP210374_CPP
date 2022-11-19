@@ -1,14 +1,9 @@
-<div align="center">
-
 ## TIC-TAC-TOE 
 
-<img src="../imagenes/tictactoe.gif" height="200" width="200">
+<img alt="c++" height="100" src="/imagenes/tictactoe.gif"/>
 
-<div align="center">
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<h3>
 
 #### Index
 - [Code Tic Tac Toe](https://github.com/UP210374/UP210374_CPP/blob/main/Cuatri/U3/TIC%20TAC%20TOE.cpp)
@@ -17,7 +12,6 @@
 - [Testing and explanation]()
 - [Conclusion]()
   
-
 ### Instructions for execution and use
 
 Depending on your operating system you have to follow the following steps to be able to use this code:
@@ -31,63 +25,45 @@ Depending on your operating system you have to follow the following steps to be 
 2. Download and install the compiler in this link https://sourceforge.net/projects/mingw/files/OldFiles/
 3. Open the terminal at the direction of the file with the command:
 
->  cd C:\Documents\...
+>       cd C:\Documents\...
 
 4. To compile use command:
 
-> gcc  04_Gato.cpp -o 04_Gato.exe
+>       gcc  04_Gato.cpp -o 04_Gato.exe
 
 5. To run type this code:
 
-> 04_Gato.exe
+>       04_Gato.exe
 
 ### Linux
 
 1. Download or clone my repo with the following command in the terminal:
    
-> "git clone https://github.com/UP210052/UP210052_CPP.git"
+>       "git clone https://github.com/UP210052/UP210052_CPP.git"
 
 2. Install GNU c/c++ compiler, open the terminal and type:
 
-> $ sudo apt-get update
-> $ sudo apt-get install build-essential manpages-dev
+>       $ sudo apt-get update
+>       $ sudo apt-get install build-essential manpages-dev
 
 3. To compile this program, type:
 
-> gcc 04_Gato.c -o 04_Gato
+>       gcc 04_Gato.c -o 04_Gato
 
 4. To run this program, type:
 
-> ./04_Gato
-
-<h3>
-
-<div align="center">
+>       ./04_Gato
 
 [Return to index](#index)
 
-<div align="center">
-
-<h3>
-
 ### Flowchart
 
-<h3>
-
-<div align="center">
-
-<img src="../imagenes/Diagrama en blanco.png" align="center">
+<img alt="c++" height="200" src="/imagenes/Diagrama en blanco.png"/>
 
  [Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?beaconFlowId=1F5D55E5891A0B79&invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
 </br></br></br></br></br>
 
-<div align="center">
-
 [Return to index](#index)
-
-<div align="center">
-<h3>
-
 
 ### Testing and explanation
 
@@ -102,20 +78,8 @@ Depending on your operating system you have to follow the following steps to be 
 ## PLayer vs Player 
 ## Player vs PC
 
-<h3>
-<div align="center">
-
 [Return to index](#index)
-
-<div align="center">
-
-<h3>
 
 ## Conclusion 
 
-<h3>
-<div align="center">
-
 [Return to index](#index)
-
-<div align="center">
