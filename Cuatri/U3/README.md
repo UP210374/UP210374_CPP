@@ -63,7 +63,7 @@ Depending on your operating system you have to follow the following steps to be 
 
 <div align="center"> 
 
-<img alt="c++" height="800" width="600" src="/imagenes/Diagrama en blanco.png"/>
+<img alt="c++" height="500" width="800" src="/imagenes/Diagrama en blanco.png"/>
 
 [Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?beaconFlowId=1F5D55E5891A0B79&invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
 
@@ -73,7 +73,7 @@ Depending on your operating system you have to follow the following steps to be 
 
 ### Testing and explanation
 
-## Considerations
+### Considerations
 
 1. Please read carefully all instructions :D
 2. Type a y to enter the game or if you don't want to play type an x
@@ -81,11 +81,11 @@ Depending on your operating system you have to follow the following steps to be 
 4. In single player mode the player is "O" and the PC is "X"
 5. In multiplayer mode player 1 is "O" and player two is "X"
 
-## PLayer vs Player 
-## Player vs PC
+### Player vs Player 
+### Player vs PC
 
 [Return to index](#index)
 
-## Conclusion 
+### Conclusion 
 
 [Return to index](#index)
