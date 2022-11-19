@@ -2,11 +2,11 @@
 
 ## TIC-TAC-TOE 
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <img alt="c++" height="100" width="100" src="/imagenes/tictactoe.gif"/>
 
 </div>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 #### Index
 - [Code Tic Tac Toe](https://github.com/UP210374/UP210374_CPP/blob/main/Cuatri/U3/TIC%20TAC%20TOE.cpp)
@@ -63,11 +63,11 @@ Depending on your operating system you have to follow the following steps to be 
 
 <div align="center"> 
 
-<img alt="c++" height="600" width="600" src="/imagenes/Diagrama en blanco.png"/>
+<img alt="c++" height="800" width="600" src="/imagenes/Diagrama en blanco.png"/>
+
+[Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?beaconFlowId=1F5D55E5891A0B79&invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
 
 </div>
-
- [Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?beaconFlowId=1F5D55E5891A0B79&invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
 
 [Return to index](#index)
 
