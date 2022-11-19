@@ -7,12 +7,13 @@ Description: Show the tic tac toe game
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
+
 using namespace std;
 
+void gotoxy(int x,int y);
 void displayBoard();
 void move();
 int selectPlay();
-bool validValue(int);
 bool checkBusyBox(int, string);
 void setPlay(int, string, string);
 bool isWinner(string);
@@ -21,47 +22,39 @@ void cloneBoard();
 int getBetterPlay(string);
 int selectPlayPC();
 
-int winner, play;
+int play;
 int row, col, turn = 1;
-char position[6][11] = {{' '}};
-char positionIMG[6][11] = {{' '}};
+char position[9][17] = {{' '}};
+char positionIMG[9][17] = {{' '}};
 const string PC = "Machine";
 const string PERSON = "Person";
 const string BOARD = "Real";
 const string IMGBOARD = "Imaginary";
 
-int main()
-{
+int main(){
     char option;
     bool winner = false;
-    cout << "\x1B[38;2;255;151;203m"
-         << "TIC-TAC-TOE GAME :D"
-         << "\x1b[0m" << endl;
+    gotoxy(35,0);
+    cout << "\x1B[38;2;255;151;203m" << "TIC-TAC-TOE GAME :D" << "\x1b[0m" << endl;
+    gotoxy(25,2);
     cout << "Press Y to play or X to exit the game:  ";
     cin >> option;
-    if (option == 'Y' || option == 'y')
-    {
+    if (option == 'Y' || option == 'y'){
         bool boxBusy = true;
-        bool isValid = true;
-
         int gameType = 1;
-        cout << endl;
-        cout << "\x1b[32m"
-             << "Let's start :)"
-             << "\x1b[0m" << endl
-             << endl;
-        cout << "\x1B[38;2;255;151;203m"
-             << "       Menu     "
-             << "\x1b[0m" << endl;
-        cout << "0. Player vs PC" << endl;
+        gotoxy(40,4);
+        cout << "\x1B[38;2;255;151;203m" << "Menu" << "\x1b[0m" << endl;
+        gotoxy(25,5);
         cout << "1. Player vs Player" << endl;
+        gotoxy(25,6);
+        cout << "2. Player vs PC" << endl;
+        gotoxy(25,7);
         cout << "Plase select the game mood: ";
         cin >> gameType;
+        gotoxy(0,0);
         move();
-        cout << endl;
         displayBoard();
-        cout << endl;
-        do
+         do
         {
             if (gameType == 1)
             {
@@ -71,7 +64,6 @@ int main()
             {
                 if (turn % 2 == 0)
                 {
-                    // es la maquina
                     play = selectPlayPC();
                 }
                 else
@@ -94,38 +86,40 @@ int main()
             }
 
         } while (turn <= 9 && winner == false);
-
-        if (winner == true)
-        {
-            cout << "Congratulations you have won absolutely nothing but my appreciation for playing this game :)" << endl;
+        if (winner == true){
+            if (turn%2==0){
+                cout << "\x1B[38;2;255;151;203m" << "Congrats player 2, you have earned my appreciation for playing this game that has cost me tears" << "\x1b[0m"<< endl;
+            }else{
+                cout << "\x1B[38;2;255;151;203m" << "Congrats player 1, you have earned my appreciation for playing this game that has cost me tears" << "\x1b[0m" << endl;
+            }
+        }else if (winner == false){
+            cout << "\x1B[38;2;255;151;203m" << "Draft :/" << "\x1b[0m" << endl;
         }
-        else
-        {
-            cout << "oh sorry, you lost :(" << endl;
-        }
+    }else{
+        cout << endl;
+        cout << "\x1B[38;2;255;151;203m" << "I didn't even want you to play :D" << "\x1b[0m" << endl;
     }
-    else
-        cout << "I didn't even want you to play :D" << endl;
-
     return 0;
 }
+   
+void gotoxy(int x,int y){
+    cout << "\033[" << y << ";" << x << "f";
+}
+
 void displayBoard()
 {
-    int board[6][11];
+    int board[9][17];
     int color = 34;
-
-    for (int row = 0; row < 6; row++)
+    for (int row = 0; row < 9; row++)
     {
-        for (int col = 0; col < 11; col++)
+        for (int col = 0; col < 17; col++)
         {
-            if (row != 1 && row != 3 && col != 3 && col != 7)
+            if (row != 2 && row != 5 && col != 5 && col != 11)
             {
-                if ((row == 0 || row == 2 || row == 4) && (col == 1 || col == 5 || col == 9))
+                if ((row == 1 || row == 4 || row == 7) && (col == 2 || col == 8 || col == 14))
                 {
-                    color = (position[row][col] == 'X')   ? 31
-                            : (position[row][col] == 'O') ? 32
-                                                          : 37;
-
+                     color=(position[row][col]=='X')?31
+                        :(position[row][col]=='O')?32:37;
                     cout << "\x1B[1;" << color << "m" << position[row][col] << "\x1B[0m";
                 }
                 else
@@ -133,11 +127,11 @@ void displayBoard()
                     cout << " ";
                 }
             }
-            else if (col == 3 || col == 7)
+            else if (col == 5 || col == 11)
             {
                 cout << "|";
             }
-            else if (row == 1 || row == 3)
+            else if (row == 2 || row == 5)
             {
                 cout << "_";
             }
@@ -148,21 +142,20 @@ void displayBoard()
 
 void move()
 {
-    position[0][1] = '1';
-    position[0][5] = '2';
-    position[0][9] = '3';
-    position[2][1] = '4';
-    position[2][5] = '5';
-    position[2][9] = '6';
-    position[4][1] = '7';
-    position[4][5] = '8';
-    position[4][9] = '9';
+    position[1][2] = '1';
+    position[1][8] = '2';
+    position[1][14] = '3';
+    position[4][2] = '4';
+    position[4][8] = '5';
+    position[4][14] = '6';
+    position[7][2] = '7';
+    position[7][8] = '8';
+    position[7][14] = '9';
 }
 
 int selectPlay()
 {
-    cout << "Player"
-         << " " << turn % 2 + 1 << endl;
+    cout << "Player" << " " << turn % 2 + 1 << endl;
     cout << "Select your move: ";
     cin >> play;
     return play;
@@ -173,64 +166,64 @@ bool checkBusyBox(int play, string board)
     bool boxBusy = false;
     if (play == 1)
     {
-        row = 0;
-        col = 1;
+        row = 1;
+        col = 2;
     }
     else if (play == 2)
     {
-        row = 0;
-        col = 5;
+        row = 1;
+        col = 8;
     }
     else if (play == 3)
     {
-        row = 0;
-        col = 9;
+        row = 1;
+        col = 14;
     }
     else if (play == 4)
     {
-        row = 2, col = 1;
+        row = 4;
+        col = 2;
     }
     else if (play == 5)
     {
-        row = 2;
-        col = 5;
+        row = 4;
+        col = 8;
     }
     else if (play == 6)
     {
-        row = 2;
-        col = 9;
+        row = 4;
+        col = 14;
     }
     else if (play == 7)
     {
-        row = 4;
-        col = 1;
+        row = 7;
+        col = 2;
     }
     else if (play == 8)
     {
-        row = 4;
-        col = 5;
+        row = 7;
+        col = 8;
     }
     else if (play == 9)
     {
-        row = 4;
-        col = 9;
+        row = 7;
+        col = 14;
     }
-
     if (board == BOARD)
     {
-        if (position[row][col] == 'x' || position[row][col] == 'o')
+        if (position[row][col] == 'X' || position[row][col] == 'O')
         {
             return true;
         }
-        else if (board == IMGBOARD)
-        {
-            if (positionIMG[row][col] == 'x' || position[row][col] == 'o')
-            {
-                return true;
-            }
-        }
-        return boxBusy;
     }
+    else if (board == IMGBOARD)
+    {
+        if (positionIMG[row][col] == 'X' || positionIMG[row][col] == 'O')
+        {
+            return true;
+        }
+    }
+    return boxBusy;    
 }
 
 void setPlay(int play, string board, string player)
@@ -238,53 +231,54 @@ void setPlay(int play, string board, string player)
     char value;
     int row, col;
     if (turn % 2 == 0)
-        value = 'x';
+        value = 'X';
     else
-        value = 'o';
+        value = 'O';
 
     if (play == 1)
     {
-        row = 0;
-        col = 1;
+        row = 1;
+        col = 2;
     }
     else if (play == 2)
     {
-        row = 0;
-        col = 5;
+        row = 1;
+        col = 8;
     }
     else if (play == 3)
     {
-        row = 0;
-        col = 9;
+        row = 1;
+        col = 14;
     }
     else if (play == 4)
     {
-        row = 2, col = 1;
+        row = 4;
+        col = 2;
     }
     else if (play == 5)
     {
-        row = 2;
-        col = 5;
+        row = 4;
+        col = 8;
     }
     else if (play == 6)
     {
-        row = 2;
-        col = 9;
+        row = 4;
+        col = 14;
     }
     else if (play == 7)
     {
-        row = 4;
-        col = 1;
+        row = 7;
+        col = 2;
     }
     else if (play == 8)
     {
-        row = 4;
-        col = 5;
+        row = 7;
+        col = 8;
     }
     else if (play == 9)
     {
-        row = 4;
-        col = 9;
+        row = 7;
+        col = 14;
     }
 
     if (board == BOARD)
@@ -293,58 +287,13 @@ void setPlay(int play, string board, string player)
     }
     else if (board == IMGBOARD)
     {
-        if (play == 1)
-        {
-            row = 0;
-            col = 1;
-        }
-        else if (play == 2)
-        {
-            row = 0;
-            col = 5;
-        }
-        else if (play == 3)
-        {
-            row = 0;
-            col = 9;
-        }
-        else if (play == 4)
-        {
-            row = 2, col = 1;
-        }
-        else if (play == 5)
-        {
-            row = 2;
-            col = 5;
-        }
-        else if (play == 6)
-        {
-            row = 2;
-            col = 9;
-        }
-        else if (play == 7)
-        {
-            row = 4;
-            col = 1;
-        }
-        else if (play == 8)
-        {
-            row = 4;
-            col = 5;
-        }
-        else if (play == 9)
-        {
-            row = 4;
-            col = 9;
-        }
-
         if (player == PERSON)
         {
-            value = 'o';
+            value = 'X';
         }
         else if (player == PC)
         {
-            value = 'x';
+            value = 'O';
         }
         positionIMG[row][col] = value;
     }
@@ -354,33 +303,33 @@ bool isWinner(string board)
 {
     if (board == BOARD)
     {
-        if (position[0][1] == position[0][5] && position[0][9] == position[0][1])
+        if (position[1][2] == position[1][8] && position[1][14] == position[1][2])
             return true;
-        else if (position[2][1] == position[2][5] && position[2][9] == position[2][1])
+        else if (position[4][2] == position[4][8] && position[4][14] == position[4][2])
         {
             return true;
         }
-        else if (position[4][1] == position[4][5] && position[4][9] == position[4][1])
+        else if (position[7][2] == position[7][8] && position[7][14] == position[7][2])
         {
             return true;
         }
-        else if (position[0][1] == position[2][1] && position[4][1] == position[0][1])
+        else if (position[1][2] == position[4][2] && position[7][2] == position[1][2])
         {
             return true;
         }
-        else if (position[0][5] == position[2][5] && position[4][5] == position[0][5])
+        else if (position[1][8] == position[4][8] && position[7][8] == position[1][8])
         {
             return true;
         }
-        else if (position[0][9] == position[2][9] && position[4][9] == position[0][9])
+        else if (position[1][14] == position[4][14] && position[7][14] == position[1][14])
         {
             return true;
         }
-        else if (position[0][1] == position[2][5] && position[4][9] == position[0][1])
+        else if (position[1][2] == position[4][8] && position[7][14] == position[1][2])
         {
             return true;
         }
-        else if (position[4][1] == position[2][5] && position[0][9] == position[4][1])
+        else if (position[1][14] == position[4][8] && position[7][2] == position[1][14])
         {
             return true;
         }
@@ -391,33 +340,33 @@ bool isWinner(string board)
     }
     else if (board == IMGBOARD)
     {
-        if (positionIMG[0][1] == positionIMG[0][5] && positionIMG[0][9] == positionIMG[0][1])
+        if (positionIMG[1][2] == positionIMG[1][8] && positionIMG[1][14] == positionIMG[1][2])
             return true;
-        else if (positionIMG[2][1] == positionIMG[2][5] && positionIMG[2][9] == positionIMG[2][1])
+        else if (positionIMG[4][2] == positionIMG[4][8] && positionIMG[4][14] == positionIMG[4][2])
         {
             return true;
         }
-        else if (positionIMG[4][1] == positionIMG[4][5] && positionIMG[4][9] == positionIMG[4][1])
+        else if (positionIMG[7][2] == positionIMG[7][8] && positionIMG[7][14] == positionIMG[7][2])
         {
             return true;
         }
-        else if (positionIMG[0][1] == positionIMG[2][1] && positionIMG[4][1] == positionIMG[0][1])
+        else if (positionIMG[1][2] == positionIMG[4][2] && positionIMG[7][2] == positionIMG[1][2])
         {
             return true;
         }
-        else if (positionIMG[0][5] == positionIMG[2][5] && positionIMG[4][5] == positionIMG[0][5])
+        else if (positionIMG[1][8] == positionIMG[4][8] && positionIMG[7][8] == positionIMG[1][8])
         {
             return true;
         }
-        else if (positionIMG[0][9] == positionIMG[2][9] && positionIMG[4][9] == positionIMG[0][9])
+        else if (positionIMG[1][14] == positionIMG[4][14] && positionIMG[7][14] == positionIMG[1][14])
         {
             return true;
         }
-        else if (positionIMG[0][1] == positionIMG[2][5] && positionIMG[4][9] == positionIMG[0][1])
+        else if (positionIMG[1][2] == positionIMG[4][8] && positionIMG[7][14] == positionIMG[1][2])
         {
             return true;
         }
-        else if (positionIMG[4][1] == positionIMG[2][5] && positionIMG[0][9] == positionIMG[4][1])
+        else if (positionIMG[1][14] == positionIMG[4][8] && positionIMG[7][2] == positionIMG[1][14])
         {
             return true;
         }
@@ -448,15 +397,15 @@ int selectPlayPC()
     do
     {
         play = 1 + rand() % 9;
-        boxBusy = checkBusyBox(play, BOARD);
-    } while (boxBusy == true);
+        boxBusy = checkBusyBox(play,BOARD);
+    }while (boxBusy == true);
     return play;
 }
-void cloneBoard()
-{
-    for (int row = 0; row < 6; row++)
+
+void cloneBoard(){
+    for (int row = 0; row < 9; row++)
     {
-        for (int col = 0; col < 11; col++)
+        for (int col = 0; col < 17; col++)
         {
             positionIMG[row][col] = position[row][col];
         }
@@ -466,7 +415,7 @@ void cloneBoard()
 int getBetterPlay(string player)
 {
     bool boxBusy = false;
-    bool gameover = false;
+    bool winner = false;
     int play = 0;
     cloneBoard();
     if (player == PC)
@@ -474,32 +423,29 @@ int getBetterPlay(string player)
         do
         {
             play++;
-            boxBusy = checkBusyBox(play, IMGBOARD);
-            if (boxBusy == false)
-            {
+            boxBusy=checkBusyBox(play, IMGBOARD);
+            if (boxBusy== false){
                 setPlay(play, IMGBOARD, PC);
-                gameover = isWinner(IMGBOARD);
+                winner = isWinner (IMGBOARD);
             }
             cloneBoard();
-        } while (play <= 9 && gameover == false);
-    }
+        } while (play <= 9 && winner == false);
+    } 
     else if (player == PERSON)
     {
         do
         {
             play++;
-            boxBusy = checkBusyBox(play, IMGBOARD);
-            if (boxBusy == false)
-            {
+            boxBusy=checkBusyBox(play, IMGBOARD);
+            if (boxBusy== false){
                 setPlay(play, IMGBOARD, PERSON);
-                gameover = isWinner(IMGBOARD);
+                winner = isWinner(IMGBOARD);
             }
             cloneBoard();
-        } while (play <= 9 && gameover == false);
+        } while (play <= 9 && winner == false);
     }
-    if (play >= 10)
-    {
-        play = -1;
+    if (play >= 10){
+        play= -1;
     }
     return play;
 }
