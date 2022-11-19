@@ -1,4 +1,8 @@
+<div style="text-align: right"> 
+
 ## TIC-TAC-TOE 
+
+</div>
 
 <img alt="c++" height="100" src="/imagenes/tictactoe.gif"/>
 
@@ -7,10 +11,10 @@
 
 #### Index
 - [Code Tic Tac Toe](https://github.com/UP210374/UP210374_CPP/blob/main/Cuatri/U3/TIC%20TAC%20TOE.cpp)
-- [Instructions for executin and use]()
-- [Flowchart]()
-- [Testing and explanation]()
-- [Conclusion]()
+- [Instructions for executin and use](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U3#instructions-for-execution-and-use)
+- [Flowchart](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U3#flowchart)
+- [Testing and explanation](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U3#testing-and-explanation)
+- [Conclusion](https://github.com/UP210374/UP210374_CPP/tree/main/Cuatri/U3#conclusion)
   
 ### Instructions for execution and use
 
@@ -58,10 +62,10 @@ Depending on your operating system you have to follow the following steps to be 
 
 ### Flowchart
 
-<img alt="c++" height="200" src="/imagenes/Diagrama en blanco.png"/>
+<img alt="c++" height="500" src="/imagenes/Diagrama en blanco.png"/>
 
  [Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?beaconFlowId=1F5D55E5891A0B79&invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
-</br></br></br></br></br>
+</br></br></br>
 
 [Return to index](#index)
 
