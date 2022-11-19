@@ -1,5 +1,5 @@
 
-## Unidad 2. Control structures and cycles <img alt="c++" height="30" src="/imagenes/bombilla.gif"/>
+## Unidad 2. Control structures and cycles <img alt="c++" height="30"  src="/imagenes/bombilla.gif"/>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
