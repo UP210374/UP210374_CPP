@@ -1,6 +1,6 @@
 /*
 Author: Paulina Jaquelin Alvarez Martinez
-Date: 12/11/2022
+Date: 19/11/2022
 Description: Show the tic tac toe game
 */
 
@@ -22,7 +22,7 @@ void cloneBoard();
 int getBetterPlay(string);
 int selectPlayPC();
 
-int play;
+int play=1;
 int row, col, turn = 1;
 char position[9][17] = {{' '}};
 char positionIMG[9][17] = {{' '}};
@@ -229,7 +229,7 @@ bool checkBusyBox(int play, string board)
 void setPlay(int play, string board, string player)
 {
     char value;
-    int row, col;
+    int row=0, col=0;
     if (turn % 2 == 0)
         value = 'X';
     else
@@ -289,11 +289,11 @@ void setPlay(int play, string board, string player)
     {
         if (player == PERSON)
         {
-            value = 'X';
+            value = 'O';
         }
         else if (player == PC)
         {
-            value = 'O';
+            value = 'X';
         }
         positionIMG[row][col] = value;
     }
@@ -429,7 +429,7 @@ int getBetterPlay(string player)
                 winner = isWinner (IMGBOARD);
             }
             cloneBoard();
-        } while (play <= 9 && winner == false);
+        } while (play <= 9 && winner == false );
     } 
     else if (player == PERSON)
     {
