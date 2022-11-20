@@ -93,7 +93,7 @@ First the player is given the option to play or quit the game and then the menu 
 
 <div align="center"> 
 
-<img alt="c++" height="100" width="100" src="/imagenes/primera parte pvsp.png"/>
+<img alt="c++" height="250" width="250" src="/imagenes/primera parte pvsp.png"/>
 
 </div>
 
@@ -101,7 +101,7 @@ To start playing the game, the drawing of the cat is shown with the number of ea
 
 <div align="center"> 
 
-<img alt="c++" height="100" width="100" src="/imagenes/parte dos pvsp.png"/>
+<img alt="c++" height="250" width="250" src="/imagenes/parte dos pvsp.png"/>
 
 </div>
 
@@ -109,7 +109,7 @@ In each move selected by the player before showing his game on the board, the se
 
 <div align="center"> 
 
-<img alt="c++" height="100" width="100" src="/imagenes/parte 3 pvsp.png"/>
+<img alt="c++" height="250" width="250" src="/imagenes/parte 3 pvsp.png"/>
 
 </div>
 
@@ -117,7 +117,7 @@ Continues to give both players the option to choose the play until a winner is f
 
 <div align="center"> 
 
-<img alt="c++" height="100" width="100" src="/imagenes/parte 5 pvsp.png"/>
+<img alt="c++" height="250" width="250" src="/imagenes/parte 5 pvsp.png"/>
 
 </div>
 
@@ -125,7 +125,7 @@ Each time a player selects and places his move, it is evaluated whether there is
 
 <div align="center"> 
 
-<img alt="c++" height="100" width="100" src="/imagenes/parte final pvsp.png"/>
+<img alt="c++" height="250" width="250" src="/imagenes/parte final pvsp.png"/>
 
 </div>
 
