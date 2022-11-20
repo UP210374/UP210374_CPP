@@ -46,8 +46,8 @@ Depending on your operating system you have to follow the following steps to be 
 
 1. Install GNU c/c++ compiler, open the terminal and type:
 
->       $ sudo apt-get update
->       $ sudo apt-get install build-essential manpages-dev
+>        sudo apt-get update
+>        sudo apt-get install build-essential manpages-dev
 
 3. To compile this program, type:
 
@@ -152,3 +152,7 @@ Regardless of the challenges and difficulties that I had to develop this code I 
 I learned a lot in this unit about how functions work and how they help you not to repeat code and make your code more efficient. I also learned that a calm person is more likely to come up with a solution to a problem than to cry while doing the work. </br>
 
 [Return to index](#index)
+
+</br>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
