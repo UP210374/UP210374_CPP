@@ -32,30 +32,30 @@ Depending on your operating system you have to follow the following steps to be 
 
 4. To compile use command:
 
->       gcc  04_Gato.cpp -o 04_Gato.exe
+>       gcc  TIC TAC TOE.cpp -o TIC TAC TOE.exe
 
 5. To run type this code:
 
->       04_Gato.exe
+>       TIC TAC TOE.exe
 
 ### Linux
 
 1. Download or clone my repo with the following command in the terminal:
    
->       "git clone https://github.com/UP210052/UP210052_CPP.git"
+>       git clone https://github.com/UP210374/UP210374_CPP.git
 
-2. Install GNU c/c++ compiler, open the terminal and type:
+1. Install GNU c/c++ compiler, open the terminal and type:
 
 >       $ sudo apt-get update
 >       $ sudo apt-get install build-essential manpages-dev
 
 3. To compile this program, type:
 
->       gcc 04_Gato.c -o 04_Gato
+>       gcc TIC TAC TOE.cpp -o TIC TAC TOE
 
 4. To run this program, type:
 
->       ./04_Gato
+>       ./TIC TAC TOE
 
 [Return to index](#index)
 
@@ -93,7 +93,7 @@ First the player is given the option to play or quit the game and then the menu 
 
 <div align="center"> 
 
-<img alt="c++" height="50" width="50" src="/imagenes/primera parte pvsp.png"/>
+<img alt="c++" height="100" width="100" src="/imagenes/primera parte pvsp.png"/>
 
 </div>
 
@@ -101,7 +101,7 @@ To start playing the game, the drawing of the cat is shown with the number of ea
 
 <div align="center"> 
 
-<img alt="c++" height="50" width="50" src="/imagenes/parte dos pvsp.png"/>
+<img alt="c++" height="100" width="100" src="/imagenes/parte dos pvsp.png"/>
 
 </div>
 
@@ -109,7 +109,7 @@ In each move selected by the player before showing his game on the board, the se
 
 <div align="center"> 
 
-<img alt="c++" height="50" width="50" src="/imagenes/parte 3 pvsp.png"/>
+<img alt="c++" height="100" width="100" src="/imagenes/parte 3 pvsp.png"/>
 
 </div>
 
@@ -117,7 +117,7 @@ Continues to give both players the option to choose the play until a winner is f
 
 <div align="center"> 
 
-<img alt="c++" height="50" width="50" src="/imagenes/parte 5 pvsp.png"/>
+<img alt="c++" height="100" width="100" src="/imagenes/parte 5 pvsp.png"/>
 
 </div>
 
@@ -125,7 +125,7 @@ Each time a player selects and places his move, it is evaluated whether there is
 
 <div align="center"> 
 
-<img alt="c++" height="50" width="50" src="/imagenes/parte final pvsp.png"/>
+<img alt="c++" height="100" width="100" src="/imagenes/parte final pvsp.png"/>
 
 </div>
 
