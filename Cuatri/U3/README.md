@@ -25,7 +25,7 @@ Depending on your operating system you have to follow the following steps to be 
    
 >       git clone https://github.com/UP210374/UP210374_CPP.git
 
-2. Download and install the compiler in this link https://sourceforge.net/projects/mingw/files/OldFiles/
+2. Download and install the compiler in this link https://www.msys2.org/
 3. Open the terminal at the direction of the file with the command:
 
 >       cd C:\Documents\...
