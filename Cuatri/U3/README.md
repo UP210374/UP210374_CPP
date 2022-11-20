@@ -93,7 +93,7 @@ First the player is given the option to play or quit the game and then the menu 
 
 <div align="center"> 
 
-<img alt="c++" height="600" width="400" src="/imagenes/primera parte pvsp.png"/>
+<img alt="c++" height="600" width="200" src="/imagenes/primera parte pvsp.png"/>
 
 </div>
 
@@ -125,7 +125,7 @@ Each time a player selects and places his move, it is evaluated whether there is
 
 <div align="center"> 
 
-<img alt="c++" height="600" width="400" src="/imagenes/parte final pvsp.png"/>
+<img alt="c++" height="600" width="300" src="/imagenes/parte final pvsp.png"/>
 
 </div>
 
