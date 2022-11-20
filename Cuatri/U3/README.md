@@ -73,7 +73,7 @@ Depending on your operating system you have to follow the following steps to be 
 
 ### Testing and explanation
 
-### Considerations
+#### Considerations
 
 1. Please read carefully all instructions :D
 2. Type a y to enter the game or if you don't want to play type an x
@@ -93,7 +93,7 @@ First the player is given the option to play or quit the game and then the menu 
 
 <div align="center"> 
 
-<img alt="c++" height="600" width="200" src="/imagenes/primera parte pvsp.png"/>
+<img alt="c++" height="200" width="500" src="/imagenes/primera parte pvsp.png"/>
 
 </div>
 
@@ -125,7 +125,7 @@ Each time a player selects and places his move, it is evaluated whether there is
 
 <div align="center"> 
 
-<img alt="c++" height="600" width="300" src="/imagenes/parte final pvsp.png"/>
+<img alt="c++" height="200" width="500" src="/imagenes/parte final pvsp.png"/>
 
 </div>
 
