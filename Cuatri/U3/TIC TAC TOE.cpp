@@ -163,6 +163,7 @@ int selectPlay()
     return play;
 }
 
+
 bool checkBusyBox(int play, string board)
 {
     bool boxBusy = false;
