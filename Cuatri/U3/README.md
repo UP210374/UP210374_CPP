@@ -63,9 +63,9 @@ Depending on your operating system you have to follow the following steps to be 
 
 <div align="center"> 
 
-<img alt="c++" height="500" width="800" src="/imagenes/Diagrama en blanco.png"/>
+<img alt="c++" height="500" width="800" src="/imagenes/flowchart.png"/>
 
-[Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?beaconFlowId=1F5D55E5891A0B79&invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
+[Check them out!](https://lucid.app/lucidchart/e1b5ac26-4430-4f3d-a910-44f91089d47e/edit?invitationId=inv_cabe0ea4-ec45-47cc-85eb-e41b8bd6ca48&page=0_0#) 
 
 </div>
 
